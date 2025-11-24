@@ -1,0 +1,172 @@
+default:
+  type: entity
+  entity: '{key}'
+  trigger: death
+  damager: player
+  menu_item:
+    material: '{key}_spawn_egg'
+sources:
+  player:
+    xp: 20
+    menu_item:
+      material: player_head
+  bat:
+    xp: 1.0
+  cat:
+    xp: 0
+  chicken:
+    xp: 1.0
+  cod:
+    xp: 1.0
+  cow:
+    xp: 2.0
+  donkey:
+    xp: 2.0
+  fox:
+    xp: 3.0
+  giant:
+    xp: 10.0
+    menu_item:
+      material: zombie_spawn_egg
+  horse:
+    xp: 2.0
+  mooshroom:
+    xp: 2.0
+  mule:
+    xp: 2.0
+  ocelot:
+    xp: 1.0
+  parrot:
+    xp: 1.0
+  pig:
+    xp: 2.0
+  rabbit:
+    xp: 1.0
+  salmon:
+    xp: 1.0
+  sheep:
+    xp: 2.0
+  skeleton_horse:
+    xp: 3.0
+  snow_golem:
+    xp: 3.0
+  squid:
+    xp: 2.0
+  strider:
+    xp: 3.0
+  tropical_fish:
+    xp: 1.0
+  turtle:
+    xp: 2.0
+  villager:
+    xp: 2.0
+  wandering_trader:
+    xp: 2.0
+  bee:
+    xp: 3.0
+  cave_spider:
+    xp: 5.0
+  dolphin:
+    xp: 3.0
+  enderman:
+    xp: 7.0
+  iron_golem:
+    xp: 12.0
+  llama:
+    xp: 4.0
+  piglin:
+    xp: 7.0
+  panda:
+    xp: 5.0
+  polar_bear:
+    xp: 7.0
+  pufferfish:
+    xp: 1.0
+  spider:
+    xp: 4.0
+  wolf:
+    xp: 4.0
+  zombified_piglin:
+    xp: 1.0
+  blaze:
+    xp: 10.0
+  creeper:
+    xp: 10.0
+  drowned:
+    xp: 2.0
+  elder_guardian:
+    xp: 300.0
+  endermite:
+    xp: 0.01
+  evoker:
+    xp: 40
+  ghast:
+    xp: 20
+  guardian:
+    xp: 5.0
+  hoglin:
+    xp: 12.0
+  husk:
+    xp: 1
+  illusioner:
+    xp: 40.0
+    menu_item:
+      material: evoker_spawn_egg
+  magma_cube:
+    xp: 12.0
+  phantom:
+    xp: 10.0
+  piglin_brute:
+    xp: 50.0
+  pillager:
+    xp: 5.0
+  ravager:
+    xp: 80.0
+  shulker:
+    xp: 15.0
+  silverfish:
+    xp: 5.0
+  skeleton:
+    xp: 5.0
+  slime:
+    xp: 5.0
+  stray:
+    xp: 8.0
+  vex:
+    xp: 10.0
+  vindicator:
+    xp: 7.0
+  witch:
+    xp: 14
+  wither_skeleton:
+    xp: 15
+  zoglin:
+    xp: 25
+  zombie:
+    xp: 4
+  zombie_villager:
+    xp: 6
+  ender_dragon:
+    xp: 4000
+  wither:
+    xp: 999
+  axolotl:
+    xp: 5
+  glow_squid:
+    xp: 7
+  goat:
+    xp: 3
+  allay:
+    xp: 0.2
+  frog:
+    xp: 2.0
+  tadpole:
+    xp: 1.2
+  warden:
+    xp: 500
+  armadillo:
+    xp: 1
+  bogged:
+    xp: 1
+  breeze:
+    xp: 1

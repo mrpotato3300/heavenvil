@@ -1,0 +1,35 @@
+krokmou:
+  Type: polar_bear
+  Health: 30
+  Faction: krokmouTeam
+  Options:
+    PreventOtherDrops: true
+    DigOutOfGround: true
+    PreventLeashing: false 
+    ApplyInvisibility: true
+    Silent: true
+  AIGoalSelectors:
+  - clear
+  - float
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  KillMessages:
+  - '<target.name> was slay by krokmou'  
+  Skills:
+  - skill:krokmouKRSpawn{sync=true} ~onSpawn
+  - skill:krokmouKRDamaged ~onDamaged
+  - skill{s=[
+      - skill:krokmouKRMount 
+      - skill:krokmouKRToTame 
+      - skill:krokmouKRTamedSaddledSet    
+      - skill:krokmouKRHeal  
+    ]} @Trigger ~onInteract 
+  - skill{s=[
+      - skill:krokmouKRFlyReturn
+      - skill:krokmouKRUnderWater
+    ]} ~onTimer:20
+  - cancelevent{sync=true} @Self ~onAttack
+  - skill:krokmouKRDeath ~onDeath
+#UkZNZFT0d2duBjU5JWezdEVJNDV3dGRPVTQq1EejRUTwUkVO1kTWNXUxtUTmZlWxwWOOVEO
+# XxQGsoau9tnjeui9Rkqs0xUtTxM+psr3rTE5VE4barOxI0FyCUjOud1IKSMn4eX505mQVf52q4f48N/YIlHQ/P3e8VkAarDpv+ZZeVqqHUM=

@@ -1,0 +1,12 @@
+patterns:
+  - type: stat
+    stat: crit_damage
+    value: 0.2
+    pattern:
+      interval: 1
+  - type: stat
+    stat: regeneration
+    value: 0.3
+    pattern:
+      interval: 2
+levels:

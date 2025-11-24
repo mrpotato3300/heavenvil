@@ -1,0 +1,198 @@
+items:
+  auraskills/hook3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Gancho","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"-|- Tier III -|-","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Click Derecho para Usarlo","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"no sirve como caña de pesca","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Remaining uses: 892","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues: |-
+        {
+            "executableitems:ei-id": "grappling_hook_3",
+            "score:usage": 892
+        }
+  auraskills/hook2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Gancho","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"-|- Tier II -|-","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Click Derecho para Usarlo","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"no sirve como caña de pesca","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Remaining uses: 344","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues: |-
+        {
+            "executableitems:ei-id": "grappling_hook_2",
+            "score:usage": 344
+        }
+  auraskills/ironaxe:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: IRON_AXE
+  auraskills/hook1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Gancho","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"-|- Tier I -|-","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Click Derecho para Usarlo","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"no sirve como caña de pesca","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Remaining uses: 120","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      enchants:
+        PROTECTION_FALL: 6
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues: |-
+        {
+            "executableitems:ei-id": "grappling_hook_1",
+            "score:usage": 120
+        }
+  auraskills/amazoniaaxe:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Amazonia","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"[ITEM LEGENDARIO]","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Tala bosques enteros","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Pertenecía a Frankee","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Irrompible","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_green","bold":false}]}'
+      enchants:
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+        DAMAGE_ALL: 9
+        DURABILITY: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+      Unbreakable: true
+      PublicBukkitValues: |-
+        {
+            "enchantssquared:es_enchantments": "49:1;51:1;35:3"
+        }
+  auraskills/netheriteaxe:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 3
+  auraskills/defense_kit_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: BARREL
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"text":"","extra":[{"text":"Kit de Defensa I","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+      lore:
+      - '"(+NBT)"'
+      internal: H4sIAAAAAAAA/43MPQ+CMBSF4VMKRhmMm4nxlzj6MTjrbi5wLY2lNe118N+LicSBhTOf9ymBEsu9C/Xj5MXK+0pmjsw2WHXWcx3pLruKYmS3QHEW7lIJIFfILy5IH2shozE7UkeG8Z1CcQgvL2oEpdaya/CL1YR4+48dk7Qcb3XLSZ6OhAcomwBtxpBjY6w3aWD0BGY9ZqoQJPXPD1jVdDNLAQAA
+      blockMaterial: BARREL
+  auraskills/defense_kit_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: BARREL
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"text":"","extra":[{"text":"Kit de Defensa II","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+      lore:
+      - '"(+NBT)"'
+      internal: H4sIAAAAAAAA/7WSz04CMRDGhwUMbBA9EI030jNPsEeBAzHxojdjyOzu7G5DtzXtrH9ieBGf1gbYhcDFGL2102/6m+9rQ4AQhrfKJKu5Zskfj5j3IJApXJZSU2Ix4yhGa0n1IJxWjk15jyXB16dgemcRCTERfmFRRE9N7U7yOKXxjDLSDseLhReZOKtcgkypiDJUjiZCMiqZNNtKp2SVx+4Vjq1cERfWVHnRVBOjjPWYt0Iy+atjo+qW9fO6D90FU+lCAOi2oPOgDHdCaDPmbTibYYk5+SPow2CukwI1l6R5I29tvY/23isdW8KV1HkAbfWqoOVV0J2aSvNOfbNXS2v0MinI8YvyTmFHH9QdvW3HxUG2/va01p3/45TXR1MqynOvdzV7+Gfs4IR98JdcIUk1hq9+Bg1Ogs4IuSC79G+uDsm/SWZ0lExsDDtP/QYMpIIlHAMAAA==
+      blockMaterial: BARREL
+  auraskills/infpearl:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: ENDER_PEARL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '["",{"text":"Ender Pearl Infinita","italic":false,"color":"light_purple"}]'
+      lore:
+      - '["",{"text":"[Item Épico]","italic":false}]'
+      internal: H4sIAAAAAAAA/+NiYOBiYAlJTC9mZODIzEsrSE0symFkYAAAutFuLRgAAAA=
+  auraskills/defense_kit_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: BARREL
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"text":"","extra":[{"text":"Kit de Defensa III","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+      lore:
+      - '"(+NBT)"'
+      internal: H4sIAAAAAAAA/8WSQU+DQBCFByhNS2rjodqYGH+IR7UHbyZ6JwNMl02XnWYZTPz3UoHSFC+oiff3vTfzZiKACJYPhtPdxoqWjzdUM/B1BpeFtpQ63Mp9gs6RmUP4LFSUEQDMPZi8GpbAg/CRKyteA932kGKTkY1zdiXF6Ap20EKTIxRBIKgCmD5hgYrg4AyLjU1ztFKQla8wv/Fe9d57x0KpaLY+BObdgA8DTWUTR7jTVrWaAFrRTS/Sjm2c5lTK3qBQN2H4k7UWHTRroPUASuseWTr9xT/XsD6rwZBStazs5luOnM8bkX3yXGWuyWRd6NVZ6AymL3zYEO5OEKnnVbFUTgzFBZZCbmi8b7jW+HrkNsHgV7aEkpOLt2hMv9I3lf/uLKuzsyTMcrzJ+s/rAfgESitBzAMEAAA=
+      blockMaterial: BARREL
+  auraskills/treecapitatorbook:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      lore:
+      - '{"text":"","extra":[{"text":"Deforestation","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      PublicBukkitValues: |-
+        {
+            "enchantssquared:es_enchantments": "51:1"
+        }
+  auraskills/diamondaxe:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: DIAMOND_AXE
+  auraskills/horse:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: BARREL
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"text":"","extra":[{"text":"Caballo","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+      lore:
+      - '{"text":"","extra":["(+NBT)"]}'
+      - '{"text":"","extra":[{"text":"Incluye un caballo con montura","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_purple","bold":false}]}'
+      internal: H4sIAAAAAAAA/13OsQ7CIBSF4UMtiTJUV1/FUePgrHtzLVdspEAAY3x7TWqD6f7991wFKDR767vH0eU+vy9klqh6jc3QO+4i3fLuSjGyXUGeMg9JAagF6rP1GQLy4J8uizHalujuY+I2BXq5lo3BrxCz4m8mkdaWJ1hNUI5wXSCFUNxidrApzjLp77Mf0WZFT+QAAAA=
+      blockMaterial: BARREL
+  auraskills/foragervalor:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: SCUTE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Valor del Leñador","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Valor obtenido con la leña","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Sirve para numerosas recetas","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '{"text":"","extra":[{"text":"id: foragervalor","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_gray","bold":false}]}'
+      enchants:
+        WATER_WORKER: 1
+      ItemFlags:
+      - HIDE_ENCHANTS

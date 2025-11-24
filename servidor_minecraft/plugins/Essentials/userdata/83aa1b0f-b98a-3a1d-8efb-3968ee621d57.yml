@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.184.121.179
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1763925696464
+  login: 1763921045136
+money: '0'
+last-account-name: potatosis
+logoutlocation:
+  world: 07743985-5344-4cab-85b1-33e738fbecf9
+  world-name: heaven
+  x: -13.279219317985563
+  y: 160.0
+  z: -29.040493351998027
+  yaw: -28.593994140625
+  pitch: 23.87925910949707

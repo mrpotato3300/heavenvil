@@ -1,0 +1,57 @@
+#Ender Dragon Plugin Config
+
+#Default Dragon Health
+basedragonHealth : 1000
+#Whether the Dragon gains extra health to balance player amount vs dragon
+dragonHealthScales : true
+#Amount of extra health added per player
+scalingdragonHealth : 200
+#Whether the Dragon avoids explosions once hit by one
+dragonAvoidsExplosions : true
+#The Dragon's name on spawn
+dragonName : Ender Dragon
+#Whether the Dragon announces its attacks in chat
+dragonAttacksAnnounced : false
+#Whether the Dragon can become enraged by players with bad omen
+dragonCanBecomeEnraged : true
+
+#Whether the Dragon can breathe fire
+dragonCanFireBreath : true
+#Whether the Dragon will make sounds while breathing fire
+dragonCanFireBreathSounds : true
+#Maximum duration of fire breath
+dragonFireBreathDurationUpper : 140
+#Minimum duration of fire breath
+dragonFireBreathDurationLower : 40
+
+#Performance Mode
+performanceMode : true
+
+#Whether the Dragon can pick up the nearest player
+dragonCanPickUp : true
+#Frequency of pick up in ticks
+dragonPickUpChance : 10
+
+#Whether the Dragon can roar to fling enemies
+dragonCanRoar : true
+#Frequency of roar in hits
+dragonRoarChance : 10
+
+#Whether the Dragon can do flurries of Dragon Fireballs
+dragonCanFireball : true
+#Whether the Dragon can spawn shulker bullets
+dragonCanSpawnShulkerBullets : true
+#Whether the Dragon can spawn lightning around the arena
+dragonCanSpawnLightning : true
+#Whether the Dragon can turn endermen against players
+dragonCanRallyEndermen : true
+#Whether the Dragon can spawn a crystal to repair other destroyed crystals
+dragonCanSpawnCrystal : true
+
+#Whether the Dragon creates custom loot once slain
+dragonCreatesLoot : false
+#Whether the Dragon respawning destroys the original loot chest
+dragonRespawnDestroysLoot : false
+
+#Whether the leaderboard for players who participated in the Ender Dragon battle should be displayed
+shouldDisplayLeaderboard : false
