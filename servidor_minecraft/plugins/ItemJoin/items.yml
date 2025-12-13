@@ -1,0 +1,30 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+
+# General options that apply to the custom items' functionality.
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+
+# This is the section where the custom items created will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  heaven-menu:
+    id: BRICK
+    slot: 8
+    model-data: heavenvil:gamemenu
+    name: '&bMenú del Servidor'
+    lore:
+    - '&7Fácil, sin tantos comandos...'
+    - '&8Click Derecho para acceder al menú'
+    interact-right:
+    - 'player: hm'
+    itemflags: UNBREAKABLE, NOT-HAT, NO-CLEAR, HIDE-FLAGS, PLACEMENT, CANCEL-EQUIP,
+      INVENTORY-MODIFY, ITEM-STORE, CANCEL-EVENTS, DEATH-KEEP, DEATH-DROPS, SELF-DROPS,
+      ITEM-MODIFIABLE, ITEM-REPAIRABLE, ITEM-CRAFTABLE, AUTO-REMOVE
+    triggers: WORLD-SWITCH

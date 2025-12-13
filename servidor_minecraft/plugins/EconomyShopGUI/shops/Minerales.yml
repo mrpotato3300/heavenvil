@@ -1,0 +1,119 @@
+pages:
+  page1:
+    items:
+      "lapis":
+        material: LAPIS_LAZULI
+        displayname: "&1&lLapisLázuli"
+        slot: 1
+      "lapisbloque":
+        material: LAPIS_BLOCK
+        displayname: "&1&lBloque de lapislázuli"
+        slot: 10
+      "amatista":
+        material: AMETHYST_SHARD
+        displayname: "&d&5&lFragmento de amatista"
+        slot: 2
+      "amatistabloque":
+        material: AMETHYST_BLOCK
+        displayname: "&d&5&lBloque de amatista"
+        slot: 11
+      "cobrecroto":
+        material: RAW_COPPER
+        displayname: "#ED6F18&lCobre crudo"
+        slot: 3
+      "cobre":
+        material: COPPER_INGOT
+        displayname: "#ED6F18&lLimgote de cobre"
+        slot: 12
+      "cobrebloque":
+        material: COPPER_BLOCK
+        displayname: "#ED6F18&lBloque de cobre"
+        slot: 21
+      "redstone":
+        material: REDSTONE
+        displayname: "&4&lPolvo de redstone"
+        slot: 4
+      "redstonebloque":
+        material: REDSTONE_BLOCK
+        displayname: "&4&lBloque de redstone"
+        slot: 13
+      "esmeraldadeepslate":
+        material: DEEPSLATE_EMERALD_ORE
+        displayname: "&a&lMena de esmeralda de deepslate"
+        slot: 5
+      "emeralda":
+        material: emerald
+        displayname: "&a&lEsmeralda"
+        slot: 14
+      "esmeraldabloque":
+        material: EMERALD_BLOCK
+        displayname: "&a&lBloque de esmeralda"
+        slot: 23
+      "ironcroto":
+        material: RAW_IRON
+        displayname: "#F2BD9B&lHierro crudo"
+        slot: 6
+      "iron":
+        material: iron_ingot
+        displayname: "#F2BD9B&lLingote de hierro"
+        slot: 15
+      "ironbloque":
+        material: iron_block
+        displayname: "#F2BD9B&lBloque de hierro"
+        slot: 24
+      "goldcroto":
+        material: raw_gold
+        displayname: "#FFD638&lOro crudo"
+        slot: 7
+      "gold":
+        material: gold_ingot
+        displayname: "#FFD638&lLingote de oro"
+        slot: 16
+      "goldbloque":
+        material: gold_block
+        displayname: "#FFD638&lBloque de oro"
+        slot: 25
+      "diamond":
+        material: diamond
+        displayname: "&b&lDiamante"
+        slot: 8
+      "diamondbloque":
+        material: diamond_block
+        displayname: "&b&lBloque de diamante"
+        slot: 17
+      "carbon":
+        material: coal
+        displayname: "#260D07&lCarbón"
+        slot: 9
+      "Charcoal":
+        material: Charcoal
+        displayname: "#260D07&lCarbón vegetal"
+        slot: 18
+      "carbonbloque":
+        material: coal_block
+        displayname: "#260D07&lBloque de carbón"
+        slot: 27
+      "netherite":
+        material: netherite_scrap
+        displayname: "#331A12&lFragmentos de netherite"
+        slot: 28
+      "netheritebloque":
+        material: netherite_block
+        displayname: "#331A12&lBloque de netherita"
+        slot: 37
+      "glowstone":
+        material: glowstone_dust
+        displayname: "&e&lPolvo de glowstone"
+        slot: 29
+      "glowstonebloque":
+        material: glowstone
+        displayname: "&e&lBloque de glowstone"
+        slot: 38
+      "resina":
+        material: resin_clump
+        displayname: "#F0521F&lResina"
+        slot: 30
+      "ladrillo de resina":
+        material: resin_brick
+        displayname: "#F0521F&lLadrillo de resina"
+        slot: 39

@@ -1,0 +1,113 @@
+menu_title: '&7&lTeams'
+open_command:
+  - heaventeams
+  - ht
+size: 27
+items:
+  'team-home':
+    material: CAMPFIRE
+    slot: 7
+    display_name: "&5Home del Team"
+    lore:
+     - '&fClick Izquierdo:&7 /team home'
+     - '&fClick Derecho:&7 /team sethome [Solo el Owner]'
+    right_click_commands:
+     - "[player] team sethome"
+    left_click_commands:
+     - "[player] team home"
+  'team-info':
+    material: END_CRYSTAL
+    slot: 4
+    display_name: "&f&l-[ &5%betterteams_displayname% &r&f&l]-"
+    lore:
+     - '&fApodo: %betterteams_tag%'
+     - '&fDescripción:'
+     - '&7- %betterteams_description%'
+     - '&eNivel del Team:&6 %betterteams_level%'
+     - '&bMiembros:&3 %betterteams_members%&9/&3%betterteams_maxmembers%'
+     - '&bEn línea:&3 %betterteams_online%&9/&3%betterteams_maxmembers%'
+     - '&2PvP:&a %betterteams_pvp%'
+     - '&2Team Abierto:&a %betterteams_open%'
+     - '&4Creador:&c %betterteams_owners%'
+  'team-economy':
+    material: EMERALD
+    slot: 1
+    display_name: '&5Economía del Team'
+    lore:
+     - '&fBalance: &a$%betterteams_money%&2/&a$%betterteams_maxmoney%'
+     - '&fTu Balance: &a$%vault_eco_balance_formatted%'
+     - '&fRanking Global: &2%betterteams_positionbal%'
+     - '&7Click para acceder al menú de Dinero'
+    click_commands:
+     - "[player] hte"
+  'team-chat':
+    material: WRITABLE_BOOK
+    slot: 15
+    display_name: "&5Chat del Team"
+    lore:
+     - "&7/tm para enviar un Mensaje a tu Team"
+  'team-player':
+    material: head-%player_name%
+    slot: 11
+    display_name: "&5- %player_name% - &d[Tú]"
+    lore:
+     - "&fActualmente se encuentra en: &f&l%betterteams_displayname%"
+     - "&fTu rango actual en %betterteams_displayname% &fes de:&2 %betterteams_rank%"
+     - "&7Puedes irte o crear un Team cuando quieras."
+     - "&7Puedes hacer alianzas con otros Teams."
+  'owner-panel':
+    material: mace
+    slot: 13
+    display_name: "&5Panel de Owner"
+    lore:
+     - "&fSolo los Owner pueden acceder a este menú"
+     - "&fTu rango actual en %betterteams_displayname% &fes de:&2 %betterteams_rank%"
+  'purpleglass':
+    material: PURPLE_STAINED_GLASS_PANE
+    hide_tooltip: true
+    slots: 
+     - 0
+     - 2
+     - 3
+     - 5
+     - 6
+     - 8
+     - 9
+     - 10
+     - 12
+     - 14
+     - 16
+     - 17
+    display_name: " "
+# Parte inferior
+  'team-finder':
+    material: ENDER_EYE
+    slot: 26
+    display_name: "&2Ver Teams"
+    click_commands:
+     - "[player] htts"
+  'back':
+    material: BARRIER
+    slot: 18
+    display_name: "&cVolver"
+    click_commands:
+     - "[player] hm"
+  'description':
+    material: COMPASS
+    slot: 22
+    display_name: "&fLos Teams..."
+    lore:
+     - "&7Los teams [Equipos] son una forma más fácil de poder"
+     - "&7crear/unirse/ver todos los teams que tiene el servidor,"
+     - "&7además de poder reconocer los teams que forma la gente."
+  'grayglass':
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    hide_tooltip: true
+    slots: 
+     - 19
+     - 20
+     - 21
+     - 23
+     - 24
+     - 25
+    display_name: " "

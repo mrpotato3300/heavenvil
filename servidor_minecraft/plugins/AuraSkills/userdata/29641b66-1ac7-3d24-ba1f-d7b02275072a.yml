@@ -1,0 +1,47 @@
+uuid: 29641b66-1ac7-3d24-ba1f-d7b02275072a
+skills:
+  auraskills/fishing:
+    level: 0
+    xp: 0.0
+  auraskills/excavation:
+    level: 3
+    xp: 101.33000000000125
+  auraskills/defense:
+    level: 4
+    xp: 1073.7848488245158
+  auraskills/foraging:
+    level: 6
+    xp: 2187.580000000016
+  auraskills/fighting:
+    level: 1
+    xp: 170.0
+  auraskills/archery:
+    level: 0
+    xp: 35.0
+  auraskills/agility:
+    level: 4
+    xp: 812.8055599999984
+  auraskills/alchemy:
+    level: 2
+    xp: 0.0
+  auraskills/enchanting:
+    level: 2
+    xp: 406.80000000000007
+  auraskills/mining:
+    level: 0
+    xp: 8.899999999999995
+  auraskills/farming:
+    level: 0
+    xp: 36.0
+mana: 32.0
+action_bar:
+  idle: true
+trait_modifiers:
+  '0':
+    name: auraskills/fleeting
+    trait: auraskills/movement_speed
+    operation: ADD
+    value: 5.0
+ability_data:
+  auraskills/xp_convert:
+    xp: 8.961089027405361

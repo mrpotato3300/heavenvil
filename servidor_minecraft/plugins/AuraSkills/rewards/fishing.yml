@@ -1,0 +1,12 @@
+patterns:
+  - type: stat
+    stat: luck
+    value: 0.25
+    pattern:
+      interval: 1
+  - type: stat
+    stat: health
+    value: 0.25
+    pattern:
+      interval: 1
+levels:

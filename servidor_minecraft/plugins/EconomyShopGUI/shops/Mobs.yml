@@ -1,0 +1,28 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: ROTTEN_FLESH
+        displayname: Carne de zombie
+        buy: 100.0
+        sell: 100.0
+      '2':
+        material: SPIDER_EYE
+        displayname: Ojo de araña
+        buy: 100.0
+        sell: 100.0
+      '3':
+        material: Bone
+        displayname: Hueso
+        buy: 100.0
+        sell: 100.0
+      '5':
+        material: ENDER_PEARL
+        displayname: Ender peal
+        buy: 100.0
+        sell: 100.0
+      '6':
+        material: STRING
+        displayname: Hilo
+        buy: 100.0
+        sell: 100.0

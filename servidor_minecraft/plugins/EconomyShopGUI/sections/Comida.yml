@@ -1,0 +1,8 @@
+enable: true
+item:
+  material: BREAD
+  displayname: '&l&6&oAlimentos'
+  lore: 
+  - "Aquí encontraras la comida disponible para comprar"
+slot: 15
+title: "&l&6&oAlimentos"

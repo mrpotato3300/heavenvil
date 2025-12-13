@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: ENCHANTED_BOOK
+  displayname: Encantamientos
+slot: 22

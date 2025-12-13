@@ -1,0 +1,127 @@
+title: "&lComida"
+pages:
+  page1:
+    items:
+      'Alimentos elaborados':
+        material: BEETROOT_SOUP
+        displayname: "#D62929&l&oALIMENTOS ELABORADOS"
+        lore: 
+        - "A la derecha se encuentran aliementos elaborados"
+        slot: 19
+      'Carnes animales':
+        material: COOKED_COD
+        displayname: "#FFDC8C&l&oCARNES"
+        lore: 
+        - "A la dereceha se encuentran carnes animales"
+        slot: 10
+      'Frutas y verduras':
+        material: GOLDEN_CARROT
+        displayname: "&6&l&oFRUTAS Y VERDURAS"
+        lore: 
+        - "A la derecha se encuentran frutas y verduras"
+        slot: 1
+      '1':
+        material: APPLE
+        displayname: "&c&lManzana"
+        buy: 34.9
+        sell: 14.9
+        slot: 2
+      '2':
+        material: CARROT
+        displayname: "&6&lZanahoria"
+        buy: 49.9
+        sell: 19.9
+        slot: 3
+      '3':
+        material: POTATO
+        displayname: "&e&lPapa"
+        buy: 39.9
+        sell: 14.9
+        slot: 4
+      '4':
+        material: BEETROOT
+        displayname: "&4&lRemolacha"
+        buy: 99.9
+        sell: 14.9
+        slot: 5
+      '5':
+        material: SWEET_BERRIES
+        displayname: "&4&lBayas"
+        buy: 9.9
+        slot: 6
+      '6':
+        material: GLOW_BERRIES
+        displayname: "&6B&e&layas &e&lluminosa&6s"
+        buy: 14.9
+        slot: 7       
+      '7':
+        material: MELON_SLICE
+        displayname: "&a&lSandia"
+        buy: 24.9
+        sell: 9.9
+        slot: 8
+      '8':
+        material: COD
+        displayname: "#F0A86C&lBacalao"
+        buy: 49.9
+        sell: 14.9
+        slot: 15      
+      '9':
+        material: SALMON
+        displayname: "#fa8072&lSal#96B4B5&lmón"
+        buy: 49.9
+        sell: 14.9
+        slot: 14
+      '10':
+        material: PORKCHOP
+        displayname: "#E08779&lChuleta #E08779&lde #E08779&lcerdo"
+        buy: 99.9
+        sell: 14.9
+        slot: 13
+      '11':
+        material: BEEF
+        displayname: "#FC5644&lCarne #FC5644&lde #FC5644&lvaca"
+        buy: 99.9
+        sell: 14.9
+        slot: 11
+      '12':
+        material: MUTTON
+        displayname: "#E8422E&lCarne #E8422E&lde #E8422E&loveja"
+        buy: 99.9
+        sell: 14.9
+        slot: 12
+      '13':
+        material: BREAD
+        displayname: "#BF8A3F&lPan"
+        buy: 59.9
+        sell: 12.9
+        slot: 25
+      '14':
+        material: CAKE
+        displayname: "#F5F5F5&lPa&4&lst#F5F5F5&lel"
+        buy: 149.9
+        sell: 99.9
+        slot: 20
+      '15':
+        material: PUMPKIN_PIE
+        displayname: "&6&lPastel &6&lde &6&lcalabaza"
+        buy: 189.9
+        sell: 79.9
+        slot: 21
+      '16':
+        material: COOKIE
+        displayname: "&6&lG#4F3D37&la&6&ll#4F3D37&ll&6&le#4F3D37&lt&6&la"
+        buy: 9.9
+        slot: 22
+      '17':
+        material: SUSPICIOUS_STEW
+        displayname: "Sopa sospechoza"
+        buy: 199.9
+        sell: 99.9
+        slot: 24
+      '18':
+        material: MUSHROOM_STEW
+        displayname: "Sopa de setas"
+        buy: 199.9
+        sell: 89.9
+        slot: 23

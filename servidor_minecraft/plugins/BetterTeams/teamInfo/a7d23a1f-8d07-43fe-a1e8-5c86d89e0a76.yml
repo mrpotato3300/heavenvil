@@ -1,0 +1,17 @@
+name: CHAKS
+description: 'FUNDACIÓN CHAKS TA ALMA ES NUESTRA '
+open: false
+pvp: false
+anchor: false
+home: ''
+color: '6'
+chests: []
+anchoredPlayers:
+- 40e0cd59-c2dc-3188-9ac8-cc47835a11ce
+players:
+- 40e0cd59-c2dc-3188-9ac8-cc47835a11ce,OWNER
+level: 1
+tag: CHK
+score: 1
+allyrequests:
+- 81de0561-54f4-4314-90fd-b83565a92a23

@@ -1,0 +1,12 @@
+patterns:
+  - type: stat
+    stat: crit_chance
+    value: 0.2
+    pattern:
+      interval: 1
+  - type: stat
+    stat: strength
+    value: 0.4
+    pattern:
+      interval: 3
+levels:

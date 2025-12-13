@@ -1,0 +1,233 @@
+# Comandos oficiales de heavenvil
+
+mycommand:
+  command: /mycm
+  type: ALIAS
+  alias: /mycmd gui
+discord:
+  command: /ds
+  type: TEXT
+  text:
+  - '&f> &9Discord Oficial de Heavenvil:'
+  - '&f> &7https://discord.gg/SCrkVJCqne'
+  register: true
+warplist:
+  command: /warplist
+  type: TEXT
+  text:
+  - '&f> Comando "Warp"'
+  - '&f> &lLista de Warps actales:'
+  - '&f> 1- world &7[Mundo Survival, Overworld'
+  - '&f> 2- heaven/hell &7[Cielo o Infierno]'
+  - '&f> 3- shop &7[Mercadona de Heavenvil]'
+  - '&f> &cComando descontinuado, ahora la lista de Warps está en el menú del servidor'
+  register: true
+removetier:
+  command: /removeclass
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player angel 0'
+  - '/scoreboard players set $player demon 0'
+  - '/lp user $player permission set angel.tier1 false'
+  - '/lp user $player permission set angel.tier2 false'
+  - '/lp user $player permission set angel.tier3 false'
+  - '/lp user $player permission set angel.tier4 false'
+  - '/lp user $player permission set angel.tier5 false'
+  - '/lp user $player permission set demon.tier1 false'
+  - '/lp user $player permission set demon.tier2 false'
+  - '/lp user $player permission set demon.tier3 false'
+  - '/lp user $player permission set demon.tier4 false'
+  - '/lp user $player permission set demon.tier5 false'
+  - '/lp user $player parent remove angel'
+  - '/lp user $player parent remove demon'
+  - '/heal $player'
+angeltier1:
+  command: /angel1
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player angel 1'
+  - '/lp user $player parent add angel'
+  - '/lp user $player permission set angel.tier1 true'
+  - '/lp user $player permission set angel.tier2 false'
+  - '/lp user $player permission set angel.tier3 false'
+  - '/lp user $player permission set angel.tier4 false'
+  - '/lp user $player permission set angel.tier5 false'
+  - '/heal $player'
+angeltier2:
+  command: /angel2
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player angel 2'
+  - '/lp user $player parent add angel'
+  - '/lp user $player permission set angel.tier1 false'
+  - '/lp user $player permission set angel.tier2 true'
+  - '/lp user $player permission set angel.tier3 false'
+  - '/lp user $player permission set angel.tier4 false'
+  - '/lp user $player permission set angel.tier5 false'
+  - '/heal $player'
+angeltier3:
+  command: /angel3
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player angel 3'
+  - '/lp user $player parent add angel'
+  - '/lp user $player permission set angel.tier1 false'
+  - '/lp user $player permission set angel.tier2 false'
+  - '/lp user $player permission set angel.tier3 true'
+  - '/lp user $player permission set angel.tier4 false'
+  - '/lp user $player permission set angel.tier5 false'
+  - '/heal $player'
+angeltier4:
+  command: /angel4
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player angel 4'
+  - '/lp user $player parent add angel'
+  - '/lp user $player permission set angel.tier1 false'
+  - '/lp user $player permission set angel.tier2 false'
+  - '/lp user $player permission set angel.tier3 false'
+  - '/lp user $player permission set angel.tier4 true'
+  - '/lp user $player permission set angel.tier5 false'
+  - '/heal $player'
+angeltier5:
+  command: /angel5
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player angel 5'
+  - '/lp user $player parent add angel'
+  - '/lp user $player permission set angel.tier1 false'
+  - '/lp user $player permission set angel.tier2 false'
+  - '/lp user $player permission set angel.tier3 false'
+  - '/lp user $player permission set angel.tier4 false'
+  - '/lp user $player permission set angel.tier5 true'
+  - '/heal $player'
+demontier1:
+  command: /demon1
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player demon 1'
+  - '/lp user $player parent add demon'
+  - '/lp user $player permission set demon.tier1 true'
+  - '/lp user $player permission set demon.tier2 false'
+  - '/lp user $player permission set demon.tier3 false'
+  - '/lp user $player permission set demon.tier4 false'
+  - '/lp user $player permission set demon.tier5 false'
+  - '/heal $player'
+demontier2:
+  command: /demon2
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player demon 2'
+  - '/lp user $player parent add demon'
+  - '/lp user $player permission set demon.tier1 false'
+  - '/lp user $player permission set demon.tier2 true'
+  - '/lp user $player permission set demon.tier3 false'
+  - '/lp user $player permission set demon.tier4 false'
+  - '/lp user $player permission set demon.tier5 false'
+  - '/heal $player'
+demontier3:
+  command: /demon3
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player demon 3'
+  - '/lp user $player parent add demon'
+  - '/lp user $player permission set demon.tier1 false'
+  - '/lp user $player permission set demon.tier2 false'
+  - '/lp user $player permission set demon.tier3 true'
+  - '/lp user $player permission set demon.tier4 false'
+  - '/lp user $player permission set demon.tier5 false'
+  - '/heal $player'
+demontier4:
+  command: /demon4
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player demon 4'
+  - '/lp user $player parent add demon'
+  - '/lp user $player permission set demon.tier1 false'
+  - '/lp user $player permission set demon.tier2 false'
+  - '/lp user $player permission set demon.tier3 false'
+  - '/lp user $player permission set demon.tier4 true'
+  - '/lp user $player permission set demon.tier5 false'
+  - '/heal $player'
+demontier5:
+  command: /demon5
+  type: RUN_CONSOLE
+  runcmd:
+  - '/scoreboard players set $player demon 5'
+  - '/lp user $player parent add demon'
+  - '/lp user $player permission set demon.tier1 false'
+  - '/lp user $player permission set demon.tier2 false'
+  - '/lp user $player permission set demon.tier3 false'
+  - '/lp user $player permission set demon.tier4 false'
+  - '/lp user $player permission set demon.tier5 true'
+  - '/heal $player'
+invisibleframe:
+  command: /invisibleframe
+  type: RUN_CONSOLE
+  runcmd:
+  - '/minecraft:give $player item_frame{EntityTag:{Invisible:1}}'
+  permission-node: admin.item_frame_invisible
+  register: true
+test:
+  command: /changeemmac
+  type: RUN_COMMAND
+  runcmd:
+  - '/execute in minecraft:admin1 run minecraft:item replace entity @s[scores={emma=-3..1}] weapon from block
+      0 -55 0 container.2'
+team-create-system:
+  command: /htcs
+  type: RAW_TEXT
+  text:
+   - '&2&l --[ Crear un Team ]--'
+   - ''
+   - '&fPara crear un team es fácil, simplemente sigue los pasos a continuación.'
+   - '&f&l1.&r Utiliza el Mouse para tocar el &a[ Crear ]'
+   - '&f&l2.&a [ Crear ] &rTeam, Máx. 12 Caracteres; ejem de nombre: Loliconeros;/htc NOMBRE'
+   - '&f&l3.&a [ Crear ] &rApodo, Máx. 4 Caracteres; ejem de apodo: LLCN;/htt APODO'
+   - '&f&l4.&a [ Crear ] &rDescripción, que sea corta; ejem de desc.: Los Espantaviejas;/htd DESCRIPCIÓN'
+   - '&7&l* &rCrear un Team tiene un coste de &a$1000'
+   - '&7&l* &rCrear un apodo tiene un coste de &a$200'
+  register: true
+heavenvil-team-ally:
+  command: /htally
+  type: ALIAS
+  alias: /team ally
+  register: true
+heavenvil-team-join:
+  command: /htj
+  type: ALIAS
+  alias: /team join
+  register: true
+heavenvil-team-description:
+  command: /htd
+  type: ALIAS
+  alias: /team description
+  register: true
+heavenvil-team-tag:
+  command: /htt
+  type: ALIAS
+  alias: /team tag
+  cost: 200
+  register: true
+heavenvil-team-create:
+  command: /htc
+  type: ALIAS
+  alias: /team create
+  cost: 1000
+  register: true
+teamsigncreate:
+  command: /teamsign
+  type: SIGN_MENU
+  sign_commands:
+  - /team create $line1
+  - /team tag $line2
+  - /team description $line3
+sell:
+  command: /sell
+  type: ALIAS
+  alias: /sellgui
+mycmdgui:
+  command: /mrl
+  type: ALIAS
+  alias: /mycmd-reload commands
+  register: true

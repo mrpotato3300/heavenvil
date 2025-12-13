@@ -1,0 +1,11 @@
+storageType: YAML
+teamNameLookup:
+- medellin:7bf00126-0ef3-4918-8e52-8f9a01f2b4e1
+- potatoes:81de0561-54f4-4314-90fd-b83565a92a23
+- chaks:a7d23a1f-8d07-43fe-a1e8-5c86d89e0a76
+playerLookup:
+- 29641b66-1ac7-3d24-ba1f-d7b02275072a:7bf00126-0ef3-4918-8e52-8f9a01f2b4e1
+- 83aa1b0f-b98a-3a1d-8efb-3968ee621d57:81de0561-54f4-4314-90fd-b83565a92a23
+- 40e0cd59-c2dc-3188-9ac8-cc47835a11ce:a7d23a1f-8d07-43fe-a1e8-5c86d89e0a76
+chestClaims: []
+holos: []

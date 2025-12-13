@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: FIRE_CHARGE
+  displayname: Nether
+slot: 24

@@ -1,0 +1,208 @@
+create:
+  # {0} - Error Message
+  fail: '&cError saving NPC: {0}'
+  success: '&aNPC successfully created!'
+copy:
+  
+  no-npc: '&cNo NPC found with that UUID'
+  # {0} - Error Message
+  fail: '&cError saving copied NPC: {0}'
+  success: '&aNPC successfully copied!'
+reload:
+  
+  success: '&aPlugin successfully reloaded!'
+edit:
+  
+  enabled: '&aEnabled NPC editing'
+  disabled: '&cDisabled NPC editing'
+list:
+  
+  loading: '&7Loading NPC data...'
+
+# {0} - Plugin Version
+# {1} - MC Version
+version: '&7Plugin Version: &a{0}&7 (MC Version: &9{1}&7)'
+tp:
+  
+  # {0} - NPC name (already colored)
+  success: '&7You teleported to {0}'
+  
+  # {0} - id
+  no-npc: '&cNPC with ID &e{0}&c was not found!'
+tphere:
+  
+  # {0} - NPC name (already colored)
+  fail: '&cFailed to teleport {0}&c to you!'
+  
+  # {0} - NPC name (already colored)
+  success: '&7You teleported {0}&7 to you!'
+  
+  no-npc: '&cNPC with ID &e{0}&c was not found!'
+config:
+  
+  reload: '&aConfig successfully reloaded!'
+  debug:
+    
+    # {0} - Current debug value
+    get: '&7Debug value: &9{0}'
+    
+    # {0} - New debug value
+    set: '&7Debug value set to &a{0}'
+  avoid-check:
+    
+    # {0} - Current avoid-check value
+    get: '&7Avoid check value: &9{0}'
+    
+    # {0} - New avoid-check value
+    set: '&7Avoid check value set to &a{0}'
+  look-at-update-interval:
+    
+    # {0} - Current look-at-update-interval value
+    get: '&7Look at update interval value: &9{0}'
+    
+    # {0} - New look-at-update-interval value
+    set: '&7Look at update interval value set to &a{0}'
+  input-time:
+    
+    # {0} - Current input-time value
+    get: '&7Input time value: &9{0}'
+    
+    # {0} - New input-time value
+    set: '&7Input time value set to &a{0}'
+  auto-update:
+    
+    # {0} - Current auto-update value
+    get: '&7Auto update value: &9{0}'
+    
+    # {0} - New auto-update value
+    set: '&7Auto update value set to &a{0}'
+  list:
+    
+    title: '&6NPC Config Settings:'
+    look-at-time: '&eLook At Timer: &fTime in ticks an NPC will look at a player after
+      interaction (20 ticks = 1 second)'
+    avoid-command-check: '&eAvoid Command Check: &fIf true, validation is skipped
+      (useful for proxy  like BungeeCord)'
+    debug: '&eDebug: &fIf true, debug mode is enabled for logging/diagnostics'
+    input-time: '&eInput Time: &fTime allowed for player input in seconds'
+    auto-update: '&eAuto Update: &fIf true, NPCs are automatically updated when changed'
+    placeholder-timer: '&ePlaceholder Timer: &fTime in ticks between each placeholder
+      update'
+command:
+  config:
+    placeholder-timer:
+      
+      # {0} - Current placeholder-timer value
+      get: '&7Placeholder timer value: &9{0}'
+      
+      # {0} - New placeholder-timer value
+      set: '&7Placeholder timer value set to &a{0}'
+path:
+  point:
+    add:
+      
+      # -- Path --
+      # {0} - index
+      # {1} - location
+      index: '&7Successfully added path point at index &a{0}&7 for &9{1}'
+      
+      # {0} - location
+      loc: '&7Successfully added path point at location &9{0}'
+    remove:
+      success:
+        
+        # {0} - Index of path point
+        index: '&7Successfully removed path point at index &a{0}'
+        
+        loc: '&aSuccessfully removed path point'
+      fail:
+        
+        # {0} - Index of path point
+        index: '&7Failed to remove path point at index &c{0}'
+        loc: '&cFailed to remove path point'
+    
+    empty: '&cNo path points set!'
+    visualize: '&aVisualized all current path points!'
+    hide: '&cHid all current path points!'
+    
+    clear: '&aSuccessfully cleared path points'
+    
+    # {0} - Current page
+    # {1} - Total pages
+    list: '&e--- Path Points (Page {0}&e/{1}&e) ---'
+  
+  # {0} - path name
+  not-exists: '&cPath with name &e{0}&c does not exists!'
+  
+  # {0} - path name
+  exists: '&cPath with name &e{0}&c already exists!'
+  
+  empty: '&cNo paths found!'
+  
+  # {0} - path name
+  delete: '&7Path &a{0}&7 deleted!'
+  
+  # {0} - path name
+  visualize: '&7Visualized path &a{0}&7!'
+  
+  # {0} - path name
+  hide: '&7Hid path &c{0}&7!'
+  hide-all:
+    
+    # {0} - amount of visualized paths
+    success: '&9{0}&7 Paths are now hidden!'
+    fail: '&cCould not hide any paths!'
+  record:
+    
+    start: '&aPath recording started!'
+    already: '&cPath recording is already running!'
+    stop: '&aPath recording stopped!'
+    not-started: '&cPath recording is not running!'
+  test:
+    
+    # {0} - path name
+    start: '&7Path testing for &a{0}&7 started!'
+    stop: '&7Path testing for &a{0}&7 stopped!'
+  edit:
+    
+    # {0} - path name
+    start: '&7Path &a{0}&7 is now editable!'
+    
+    'null': '&cPath name cannot be empty!'
+  
+  # {0} - path name
+  creating: '&7Creating path &a{0}&7...'
+  
+  # {0} - path name
+  created: '&7Path &a{0}&7 successfully created!'
+  
+  # {0} - current page
+  # {1} - total pages
+  list: '&e--- Paths (Page {0}&e/{1}&e) ---'
+  
+  # {0} - path name
+  # {1} - Error message
+  invalid: |-
+    &cCould not create a valid path for &e{0}&c!
+    &c{1}
+  button:
+    
+    visualize: '&b[Visualize Path]'
+    remove: '&c[Remove]'
+    delete: '&c[Delete]'
+exceptions:
+  
+  none: '&7No exceptions occurred during startup!'
+  
+  # {0} - current page
+  # {1} - max pages
+  list: '&e--- Exceptions (Page {0}&e/{1}&e) ---'
+  button:
+    
+    show: '&b[Show Exception]'
+    delete: '&c[Delete NPC File]'
+  
+  deleted: '&7NPC file deleted!'
+  
+  not-found: '&cException not found for this name!'
+  show: '&cException printed to console!'

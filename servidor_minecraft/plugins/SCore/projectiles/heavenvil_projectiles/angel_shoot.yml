@@ -1,0 +1,33 @@
+type: ARROW
+customNameVisible: false
+customName: angelshoot
+invisible: true
+glowing: false
+bounce: false
+despawnDelay: -1.0
+velocity: 3.0
+silent: true
+# Remove when hit block
+removeWhenHitBlock: true
+visualFire: false
+gravity: true
+color: NO_COLOR
+pierceLevel: -1
+critical: false
+damage: 2.0
+knockbackStrength: -1
+pickupStatus: DISALLOWED
+# The hit sound
+# Requires Paperspigot or its forks to work
+hitSound: ENTITY.LIGHTNING_BOLT.IMPACT
+particles:
+  particle0:
+    particlesType: WAX_OFF
+    # The amount of the particle
+    particlesAmount: 3
+    particlesOffSet: 1.0
+    particlesSpeed: 1.0
+    # The delay of the particle
+    particlesDelay: 1
+    # The density of the particle
+    particlesDensity: 1

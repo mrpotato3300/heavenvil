@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.79.98.86
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1765332184720
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765371225037
+  login: 1765370155631
+money: '0'
+last-account-name: dilexgame
+logoutlocation:
+  world: 2a9d3cbb-07c1-4a4e-85f2-2eff0ec21258
+  world-name: admin1
+  x: -15.102103511533574
+  y: 78.23769648722475
+  z: -4.864507269853244
+  yaw: 142.603271484375
+  pitch: 25.049922943115234
+lastlocation:
+  world: 07743985-5344-4cab-85b1-33e738fbecf9
+  world-name: heaven
+  x: -17.5
+  y: 216.0
+  z: 2.5
+  yaw: -179.94320678710938
+  pitch: -0.7206882834434509

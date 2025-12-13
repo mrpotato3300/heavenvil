@@ -1,0 +1,453 @@
+# The name or display name
+name: §x§F§F§0§F§0§0§l§o+=[ CRISOL ]=+
+# The lore of the item
+lore:
+- §6[ITEM LEGENDARIO]
+- §7Extermina de Un Solo Golpe
+- §9Estadísticas
+- '§2Daño: §f30'
+- '§2Velocidad: §fNormal'
+- §2§lIrrompible
+- '§bHabilidades:'
+- §f[ Click Derecho ]
+- §7§lSatnudium
+- §8Libera una explosión de Rethdium
+- '§8Coste: 50 Maná'
+- §f[ Shift + Click Derecho ]
+- §7§lAula Terroris Titanum
+- §8¡¡Supercarga de Rethdium!!
+- '§8Coste: 50 Maná'
+# The material
+material: NETHERITE_SWORD
+# Item Glowing effect
+glow: false
+# Disable item stacking ?
+disableStack: false
+# Keep the item on death ?
+keepItemOnDeath: false
+# Can be used only by the owner
+# ⚠ Require Store item info on true
+canBeUsedOnlyByTheOwner: false
+# Cancel event if not owner
+cancelEventIfNotOwner: false
+# BlackListed Activators
+# (can be used by everyone even if
+# the only owner feature is set to true)
+onlyOwnerBlackListedActivators: []
+# Store item info ?
+# Store the item info like the owner
+storeItemInfo: false
+# Item unbreakable ?
+unbreakable: true
+# Cancel the event if the player has no permission
+cancelEventIfNoPermission: false
+# The whitelisted worlds features
+whitelistedWorlds: []
+# Keep the default attributes
+# Only for 1.19+
+keepDefaultAttributes: false
+# For new item LET IT FALSE PLS
+# Otherwise you can let it true
+# if you want to update your old items turn it FALSE
+# But be careful the item tags may change
+# it can impact shopkeeper or custom craft recipe
+# Only for 1.19+
+ignoreKeepDefaultAttributesFeature: false
+config_5: true
+config_update: true
+# Disable the enchant glide effect
+disableEnchantGlide: false
+# The durability feature
+# will be ignored, and the usage
+# feature will be used as durability
+isDurabilityBasedOnUsage: false
+# The glider
+glider: false
+itemModel: heavenvil:crucible_on
+# The usage features
+# Increase or Decrease this usage with
+# UsageModification in your activators
+usageFeatures:
+  # The usage of the item
+  # -1 = Infinite
+  # Increase or Decrease this usage with
+  # UsageModification in your activators
+  usage: 1
+  # Is refreshable clean
+  isRefreshableClean: true
+  # The usage limit of the item
+  # Usage can't be increased above this value
+  usageLimit: -1
+# The drop features
+dropFeatures:
+  # Glow drop
+  glowDrop: false
+  # The color of the glow
+  glowDropColor: WHITE
+  # Display custom name above the item
+  displayNameDrop: false
+# The enchantments of the item
+enchantments: {}
+# The hiders features
+# Hiders to hide:
+# Attributes, Enchants, ...
+hiders:
+  # Hide enchantments
+  hideEnchantments: false
+  # Hide unbreakable
+  hideUnbreakable: true
+  # Hide attributes
+  hideAttributes: true
+  # Hide usage
+  hideUsage: false
+  # Hide destroys
+  hideDestroys: false
+  # Hide placed on
+  hidePlacedOn: false
+  # Hide dye
+  hideDye: false
+  # Hide armor trim
+  hideArmorTrim: false
+  # Hide additional tooltip
+  hideAdditionalTooltip: false
+  # Hide tool tip
+  hideToolTip: false
+# The give first join features
+giveFirstJoinFeatures:
+  # Enable the feature
+  giveFirstJoin: false
+  # The amount to give
+  giveFirstJoinAmount: 1
+  # Slot between 0 and 8 includes
+  giveFirstJoinSlot: 0
+# The restrictions features
+restrictions:
+  # Cancel the drop of the item
+  cancel-item-drop: true
+  # The item can't be used
+  # to craft any item
+  # (Even custom items)
+  cancel-item-craft: true
+  # The item can't be
+  # to deposit in a chest
+  cancel-deposit-in-chest: true
+  # The item can't be
+  # to deposit in a furnace
+  cancel-deposit-in-furnace: true
+  # The item can't be
+  # enchanted
+  cancel-enchant: true
+  # The item can't be
+  # placed in an anvil
+  cancel-anvil: true
+  # The item can't be
+  # renamed in an anvil
+  cancel-rename-anvil: true
+  # The item can't be
+  # enchanted in an anvil
+  cancel-enchant-anvil: true
+  # The item can't be
+  # placed on an armorstand
+  cancel-armorstand: true
+  # The item can't be
+  # placed in a grind stone
+  cancel-grind-stone: true
+  # The item can't be
+  # placed in an item frame
+  cancel-item-frame: true
+  # The item can't be
+  # placed in a smithing table
+  cancel-smithing-table: true
+  # The item can't be
+  # placed in a decorated pot
+  cancel-decorated-pot: true
+  # The item can't be
+  # placed in a merchant
+  cancel-merchant: true
+  # The item can't be
+  # placed in a horse
+  cancel-horse: true
+  # The item can't be
+  # swapped in the hand
+  cancel-swap-hand: true
+  # The item can't be
+  # moved of the inventory
+  locked-in-inventory: true
+# The variables
+# Variables are used to store data like kills / deaths ...
+variables: {}
+# The activators / triggers
+activators:
+  activator0:
+    # The name or display name
+    name: crucible_deselect
+    option: PLAYER_DESELECT_THE_EI
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    commands:
+    - SET_ITEM_MODEL slot:-1 model:heavenvil:crucible
+    - execute at %player% run playsound heavenvil:crucible_putting_away master %player%
+      ~ ~ ~ 1 1
+    - SUDO_OP ie lore reset
+    - SUDO_OP ie lore set 1 &c<< ITEM TEMPORAL >>
+    - SUDO_OP ie lore set 2 &7Vuelve a equiparte el
+    - SUDO_OP ie lore set 3 &7Crisol para Reiniciarlo
+    - SUDO_OP ie attribute remove attack_damage
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator1:
+    # The name or display name
+    name: '&eActivator'
+    option: PLAYER_SELECT_THE_EI
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    commands:
+    - execute in minecraft:admin1 run minecraft:item replace entity %player% weapon.mainhand
+      from block 0 -55 0 container.0
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator2:
+    # The name or display name
+    name: '&eActivator'
+    option: PLAYER_HIT_ENTITY
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots:
+    - -1
+    commands:
+    - execute at %player% run playsound heavenvil:crucible_swing_1 master %player%
+      ~ ~ ~ 1 1
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Specify a list of damageCauses that
+    # can be affected
+    # empty = all causes
+    detailedDamageCauses: []
+    detailedEntities: []
+    entityCommands: []
+    #
+    entityConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+# Display conditions in the lore
+displayConditions:
+  # Add player conditions to determine
+  # when the 
+  playerConditions: {}
+  #
+  worldConditions: {}
+  #
+  itemConditions: {}
+  # The placeholders conditions
+  placeholdersConditions: {}
+  # Enable or disable this feature
+  enableFeature: false
+# Food features
+foodFeatures:
+  # Is the food meat?
+  isMeat: false
+  # The nutrition of the food
+  nutrition: 1
+  # The saturation of the food
+  saturation: 1
+  # Can the player always eat this food?
+  canAlwaysEat: false
+# Consumable Features
+consumableFeatures:
+  # Enable this features
+  enable: false
+  # The animation
+  animation: EAT
+  # Has consume particles
+  hasConsumeParticles: false
+  # The consume seconds
+  consumeSeconds: 3
+# The weapon features
+weaponFeatures:
+  # Enable this features
+  enable: false
+  # The time to disable blocking
+  # in ticks
+  disableBlockingTime: 0
+  # The damage per attack
+  damagePerAttack: 5
+# The block attacks features
+blockAttacksFeatures:
+  # Enable this features
+  enable: false
+  # The block delay in seconds
+  blockDelay: 0
+  disableCooldownScale: 1.0
+  # The damage reductions
+  damageReductions: {}
+# The rarity of the item
+itemRarity:
+  # Enable or disable the rarity feature
+  enableRarity: false
+  # The rarity of the item
+  rarity: COMMON
+# The repairable features
+repairableFeatures:
+  # Enable this features
+  enable: false
+  # The repair cost
+  repairCost: 2
+# The equippable features
+equippableFeatures:
+  # Enable this features
+  enable: false
+  # The slot
+  slot: BODY
+  # Enable the sound
+  enableSound: false
+  # The sound
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  # The item will take damage when the player is hurt
+  damageableOnHurt: false
+  # The item can be dispensed
+  dispensable: true
+  # The item can be swapped
+  swappable: true
+  # The allowed entities
+  allowedEntities:
+  - PLAYER
+# The attributes
+attributes:
+  attribute0:
+    attribute: ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 30.0
+    # The slot
+    slot: HAND
+    # The name or display name
+    name: '&eDefault name'
+    uuid: 39107b4c-b6ea-4c8a-b5c0-72e0b343c339
+  attribute1:
+    attribute: ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.4
+    # The slot
+    slot: HAND
+    # The name or display name
+    name: '&eDefault name'
+    uuid: 4d735533-ca09-49e9-a410-3b852c7ff5c8

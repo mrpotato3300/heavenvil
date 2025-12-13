@@ -1,0 +1,605 @@
+# The name or display name
+name: §x§8§A§0§0§F§F§l§o\-[ ENMA ]-/
+# The lore of the item
+lore:
+- §6[ITEM LEGENDARIO]
+- §7Ahora es capaz de Cortar el Infierno
+- §9Estadísticas
+- '§2Daño: §f12'
+- '§2Velocidad: §fRápida'
+- §2§lIrrompible
+- '§bHabilidades:'
+- §f[ Click Derecho ]
+- §7§lTres Mil Mundos
+- §8Lanza 3 Cortes Infernales hacia adelante
+- '§8Coste: 25 Maná'
+- §f[ Shift + Click Derecho ]
+- §7§lInfierno del Dragón
+- §8Realiza una Explosión Infernal Gigantesca
+- '§8Coste: 45 Maná'
+# The material
+material: NETHERITE_SWORD
+# Item Glowing effect
+glow: false
+# Disable the enchant glide effect
+disableEnchantGlide: false
+# Disable item stacking ?
+disableStack: false
+# Keep the item on death ?
+keepItemOnDeath: false
+# Can be used only by the owner
+# ⚠ Require Store item info on true
+canBeUsedOnlyByTheOwner: false
+# Cancel event if not owner
+cancelEventIfNotOwner: false
+# BlackListed Activators
+# (can be used by everyone even if
+# the only owner feature is set to true)
+onlyOwnerBlackListedActivators: []
+# Store item info ?
+# Store the item info like the owner
+storeItemInfo: false
+# Item unbreakable ?
+unbreakable: true
+# The durability feature
+# will be ignored, and the usage
+# feature will be used as durability
+isDurabilityBasedOnUsage: false
+# Cancel the event if the player has no permission
+cancelEventIfNoPermission: false
+# The whitelisted worlds features
+whitelistedWorlds: []
+# The glider
+glider: false
+# Keep the default attributes
+# Only for 1.19+
+keepDefaultAttributes: true
+# For new item LET IT FALSE PLS
+# Otherwise you can let it true
+# if you want to update your old items turn it FALSE
+# But be careful the item tags may change
+# it can impact shopkeeper or custom craft recipe
+# Only for 1.19+
+ignoreKeepDefaultAttributesFeature: false
+config_5: true
+config_update: true
+itemModel: heavenvil:emma_on
+# The usage features
+# Increase or Decrease this usage with
+# UsageModification in your activators
+usageFeatures:
+  # The usage of the item
+  # -1 = Infinite
+  # Increase or Decrease this usage with
+  # UsageModification in your activators
+  usage: -1
+  # Is refreshable clean
+  isRefreshableClean: true
+  # The usage limit of the item
+  # Usage can't be increased above this value
+  usageLimit: -1
+# The drop features
+dropFeatures:
+  # Glow drop
+  glowDrop: false
+  # The color of the glow
+  glowDropColor: WHITE
+  # Display custom name above the item
+  displayNameDrop: false
+# The enchantments of the item
+enchantments: {}
+# The hiders features
+# Hiders to hide:
+# Attributes, Enchants, ...
+hiders:
+  # Hide enchantments
+  hideEnchantments: false
+  # Hide unbreakable
+  hideUnbreakable: true
+  # Hide attributes
+  hideAttributes: true
+  # Hide usage
+  hideUsage: false
+  # Hide destroys
+  hideDestroys: false
+  # Hide placed on
+  hidePlacedOn: false
+  # Hide dye
+  hideDye: false
+  # Hide armor trim
+  hideArmorTrim: false
+  # Hide additional tooltip
+  hideAdditionalTooltip: false
+  # Hide tool tip
+  hideToolTip: false
+# The give first join features
+giveFirstJoinFeatures:
+  # Enable the feature
+  giveFirstJoin: false
+  # The amount to give
+  giveFirstJoinAmount: 1
+  # Slot between 0 and 8 includes
+  giveFirstJoinSlot: 0
+# The restrictions features
+restrictions:
+  # The item can't be
+  # moved of the inventory
+  locked-in-inventory: false
+# The variables
+# Variables are used to store data like kills / deaths ...
+variables: {}
+# Display conditions in the lore
+displayConditions:
+  # Add player conditions to determine
+  # when the 
+  playerConditions: {}
+  #
+  worldConditions: {}
+  #
+  itemConditions: {}
+  # The placeholders conditions
+  placeholdersConditions: {}
+  # Enable or disable this feature
+  enableFeature: false
+# Food features
+foodFeatures:
+  # Is the food meat?
+  isMeat: false
+  # The nutrition of the food
+  nutrition: 1
+  # The saturation of the food
+  saturation: 1
+  # Can the player always eat this food?
+  canAlwaysEat: false
+# Consumable Features
+consumableFeatures:
+  # Enable this features
+  enable: false
+  # The animation
+  animation: EAT
+  # Has consume particles
+  hasConsumeParticles: false
+  # The consume seconds
+  consumeSeconds: 3
+# The weapon features
+weaponFeatures:
+  # Enable this features
+  enable: true
+  # The time to disable blocking
+  # in ticks
+  disableBlockingTime: 0
+  # The damage per attack
+  damagePerAttack: 1
+# The block attacks features
+blockAttacksFeatures:
+  # Enable this features
+  enable: false
+  # The block delay in seconds
+  blockDelay: 0
+  disableCooldownScale: 1.0
+  # The damage reductions
+  damageReductions: {}
+# The rarity of the item
+itemRarity:
+  # Enable or disable the rarity feature
+  enableRarity: false
+  # The rarity of the item
+  rarity: COMMON
+# The repairable features
+repairableFeatures:
+  # Enable this features
+  enable: false
+  # The repair cost
+  repairCost: 2
+# The equippable features
+equippableFeatures:
+  # Enable this features
+  enable: false
+  # The slot
+  slot: BODY
+  # Enable the sound
+  enableSound: false
+  # The sound
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  # The item will take damage when the player is hurt
+  damageableOnHurt: false
+  # The item can be dispensed
+  dispensable: true
+  # The item can be swapped
+  swappable: true
+  # The allowed entities
+  allowedEntities:
+  - PLAYER
+# The attributes
+attributes:
+  attribute0:
+    attribute: ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 4.0
+    # The slot
+    slot: HAND
+    # The name or display name
+    name: '&eDefault name'
+    uuid: 3c626671-0712-4fde-aa9c-ba8affc266bd
+  attribute1:
+    attribute: MOVEMENT_SPEED
+    operation: ADD_NUMBER
+    amount: 0.01
+    # The slot
+    slot: HAND
+    # The name or display name
+    name: '&eDefault name'
+    uuid: 80ec288a-d626-4cab-91db-c2b3d4ad3217
+# The activators / triggers
+activators:
+  activator0:
+    # The name or display name
+    name: remove_transform1
+    option: PLAYER_SELECT_THE_EI
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    commands:
+    - execute in minecraft:admin1 as %player% run minecraft:item replace entity @s[scores={emma=..1}]
+      weapon from block 0 -55 0 container.2
+    - execute in minecraft:admin1 as %player% if entity @s[scores={emma=..1}] run
+      minecraft:scoreboard players set potatosis emma -10
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator1:
+    # The name or display name
+    name: remove_transform2
+    option: PLAYER_DESELECT_THE_EI
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    commands:
+    - SUDO_OP execute in minecraft:admin1 as %player% if entity @s[scores={emma=..1}]
+      run ie itemmodel heavenvil:emma
+    - SUDO_OP execute in minecraft:admin1 as %player% if entity @s[scores={emma=..1}]
+      run ie lore reset
+    - SUDO_OP execute in minecraft:admin1 as %player% if entity @s[scores={emma=..1}]
+      run ie lore set 1 &c<< ITEM TEMPORAL >>
+    - SUDO_OP execute in minecraft:admin1 as %player% if entity @s[scores={emma=..1}]
+      run ie lore set 2 &7Vuelve a equiparte la
+    - SUDO_OP execute in minecraft:admin1 as %player% if entity @s[scores={emma=..1}]
+      run ie lore set 3 &7Emma para Reiniciarlo
+    - SUDO_OP execute in minecraft:admin1 as %player% if entity @s[scores={emma=..1}]
+      run ie attribute remove attack_damage
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator3:
+    # The name or display name
+    name: ability_1
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 4
+      # The cooldown message
+      cooldownMsg: '&cCooldown ! &7[&e%time_S%&6s&7]'
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # Required mana
+    # Require: AureliumSkills/MMOCore
+    requiredMana:
+      # Required mana
+      # Require: AureliumSkills/MMOCore
+      requiredMana: 25
+      # The error message
+      errorMessage: '&c> ¡No tienes suficiente Maná!'
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots:
+    - -1
+    commands:
+    - SWING_MAIN_HAND
+    - LAUNCH emma_shoot
+    - execute at %player_name% run playsound minecraft:item.trident.hit player %player_name%
+      ~ ~ ~ 1 1
+    - DELAY_TICK 15
+    - SWING_MAIN_HAND
+    - LAUNCH emma_shoot
+    - execute at %player_name% run playsound minecraft:item.trident.hit player %player_name%
+      ~ ~ ~ 1 2
+    - DELAY_TICK 15
+    - SWING_MAIN_HAND
+    - LAUNCH emma_shoot
+    - execute at %player_name% run playsound minecraft:item.trident.hit player %player_name%
+      ~ ~ ~ 1 0
+    # Add player conditions to determine
+    # when the 
+    playerConditions:
+      ifNotSneaking: true
+      # The message displayed
+      # when the condition is not met
+      ifNotSneakingMsg: ''
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator2:
+    # The name or display name
+    name: shoot
+    option: PLAYER_CUSTOM_LAUNCH
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots:
+    - -1
+    commands: []
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    detailedEntities: []
+    entityCommands:
+    - 'LOOP START: 300'
+    - execute at %projectile_uuid% run particle minecraft:sweep_attack ~ ~ ~ 0.4 0.4
+      0.4 0.05 4 force
+    - execute at %projectile_uuid% run particle minecraft:cloud ~ ~ ~ 0.2 0.2 0.2
+      0.05 4
+    - execute at %projectile_uuid% run particle minecraft:witch ~ ~ ~ 0.2 0.2 0.2
+      0.05 4
+    - DELAYTICK 1
+    - LOOP END
+    #
+    entityConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator4:
+    # The name or display name
+    name: ability2
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 60
+      # The cooldown message
+      cooldownMsg: '&cCooldown ! &7[&e%time_S%&6s&7]'
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # Required mana
+    # Require: AureliumSkills/MMOCore
+    requiredMana:
+      # Required mana
+      # Require: AureliumSkills/MMOCore
+      requiredMana: 45
+      # The error message
+      errorMessage: '&c> ¡No tienes suficiente Maná!'
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots:
+    - -1
+    commands:
+    - effect give %player% minecraft:blindness 5 0 true
+    - effect give %player% minecraft:slowness 5 9 true
+    # carga 1
+    - DELAY_TICK 3
+    - execute at %player% run playsound minecraft:entity.ender_dragon.growl player %player% ~ ~ ~ 3 1
+    - execute at %player% run playsound minecraft:entity.wither.spawn player %player% ~ ~ ~ 3 2
+    - execute at %player% run playsound minecraft:entity.creeper.primed player %player% ~ ~ ~ 3 1
+    - execute at %player% run particle minecraft:enchant ~ ~ ~ 0.5 1 0.5 0.1 100 force
+    - execute at %player% run particle minecraft:trial_spawner_detection ~
+      ~ ~ 0.1 1 0.1 0.1 200
+    - execute at %player% run particle minecraft:crimson_spore ~ ~ ~ 0.1 1 0.1 0.1 200
+    - execute at %player% run particle minecraft:landing_obsidian_tear ~ ~ ~ 0.5 1
+      0.5 0.1 100
+    # carga 2
+    - DELAY_TICK 35
+    - execute at %player% run playsound minecraft:entity.ender_dragon.growl player %player% ~ ~ ~ 3 1
+    - execute at %player% run playsound minecraft:entity.ender_dragon.growl player %player% ~ ~ ~ 3 2
+    - execute at %player% run playsound minecraft:entity.wither.spawn player %player% ~ ~ ~ 3 1
+    - execute at %player% run playsound minecraft:entity.creeper.primed player %player% ~ ~ ~ 3 1
+    - execute at %player% run particle minecraft:enchant ~ ~ ~ 0.5 1 0.5 0.1 230
+    - execute at %player% run particle minecraft:trial_spawner_detection_ominous ~
+      ~ ~ 0.1 1 0.1 0.1 200
+    - execute at %player% run particle minecraft:witch ~ ~ ~ 0.1 1 0.1 0.1 200
+    - execute at %player% run particle minecraft:landing_obsidian_tear ~ ~ ~ 0.5 1
+      0.5 0.1 100
+    # carga 3
+    - DELAY_TICK 35
+    - execute at %player% run playsound minecraft:entity.ender_dragon.growl player %player% ~ ~ ~ 3 0
+    - execute at %player% run playsound minecraft:entity.wither.spawn player %player% ~ ~ ~ 3 0
+    - execute at %player% run playsound minecraft:entity.creeper.primed player %player% ~ ~ ~ 3 0
+    - execute at %player% run particle minecraft:large_smoke ~ ~ ~ 0.5 1 0.5 0.1 100
+    - execute at %player% run particle minecraft:trial_omen ~ ~ ~ 0.1 1 0.1 0.1 200
+    - execute at %player% run particle minecraft:trial_spawner_detection_ominous ~ ~ ~ 0.25 0.1 0.25 0.01 100
+    - execute at %player% run particle minecraft:soul_fire_flame ~ ~ ~ 0.1 1 0.1 0.1 100
+    - execute at %player% run particle minecraft:lava ~ ~ ~ 0.1 1 0.1 0.1 100
+    - execute at %player% run particle minecraft:landing_obsidian_tear ~ ~ ~ 0.5 1
+      0.5 0.1 100
+    # explosion
+    - DELAY_TICK 15
+    - effect give %player% minecraft:resistance 8 9 true
+    - execute at %player% run summon creeper ~ ~ ~ {Fuse:1,ExplosionRadius:99,Invulnerable:1b,Silent:1b,active_effects:[{id:invisibility,duration:2000,amplifier:0,show_particles:0b}]}
+    # Add player conditions to determine
+    # when the 
+    playerConditions:
+      ifSneaking: true
+      # The message displayed
+      # when the condition is not met
+      ifSneakingMsg: ''
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}

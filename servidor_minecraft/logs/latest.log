@@ -1,0 +1,46 @@
+[00:00:12] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_ingot
+[00:00:26] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:dragon_bone
+[00:01:47] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_ingot
+[00:01:48] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_ingot
+[00:01:58] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_ingot
+[00:02:03] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:rethdium
+[00:03:08] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:forager_valor
+[00:04:58] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_ingot
+[00:05:33] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:mushroom_key
+[00:05:47] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:end_key
+[00:05:58] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:other/end_key
+[00:06:03] [Server thread/INFO]: potatosis issued server command: /ei edit emma
+[00:06:13] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:emma
+[00:07:04] [Craft Scheduler Thread - 94 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[00:07:45] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_ingot
+[00:18:30] [Server thread/INFO]: potatosis issued server command: /ei edit blessed_ingot
+[00:19:15] [Server thread/INFO]: potatosis issued server command: /ei reload
+[00:19:15] [Server thread/INFO]: ExecutableItems Reloading...
+[00:19:15] [Folia Async Scheduler Thread #4/INFO]: ========*======== ExecutableItems ========*========
+[00:19:15] [Folia Async Scheduler Thread #4/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 22
+[00:19:15] [Folia Async Scheduler Thread #4/INFO]: ExecutableItems Items with display conditions :  
+[00:19:15] [Folia Async Scheduler Thread #4/INFO]: ========*======== ExecutableItems ========*========
+[00:19:15] [Folia Async Scheduler Thread #4/INFO]: ExecutableItems Successfully reloaded !
+[00:19:17] [Server thread/INFO]: potatosis issued server command: /ei editor
+[00:19:36] [Async Chat Thread - #36/INFO]: [Not Secure] 【 POT 】potatosis: heavenvil:molten_helmet
+[00:19:43] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_helmet
+[00:21:18] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_helmet
+[00:22:04] [Craft Scheduler Thread - 96 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[00:32:27] [Server thread/INFO]: potatosis issued server command: /ie equipment slot chest
+[00:32:32] [Server thread/INFO]: potatosis issued server command: /ie equipment slot head
+[00:32:44] [Server thread/INFO]: potatosis issued server command: /ie equipment swappable
+[00:33:12] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:
+[00:33:16] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_helmet
+[00:34:57] [Server thread/INFO]: potatosis issued server command: /minecraft:give @p netherite_helmet[minecraft:item_model="heavenvil:molten_helmet",minecraft:equippable={asset_id:'heavenvil:molten_armor', slot:"helmet"}] 1
+[00:35:10] [Server thread/INFO]: potatosis issued server command: /minecraft:give @p netherite_helmet[minecraft:item_model="heavenvil:molten_helmet",minecraft:equippable={asset_id:'heavenvil:molten_armor', slot:"head"}] 1
+[00:35:10] [Server thread/INFO]: [POT potatosis: Gave 1 [Netherite Helmet] to POT potatosis]
+[00:37:04] [Craft Scheduler Thread - 98 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[00:37:39] [Server thread/INFO]: potatosis issued server command: /minecraft:give @p minecraft:chainmail_chestplate[minecraft:item_model="minecraft:better_chainmail_chestplate",minecraft:equippable={asset_id:'minecraft:heavy', slot:"chest"}] 1
+[00:37:39] [Server thread/INFO]: [POT potatosis: Gave 1 [Chainmail Chestplate] to POT potatosis]
+[00:39:26] [Server thread/INFO]: potatosis issued server command: /minecraft:give @p netherite_helmet[minecraft:item_model="heavenvil:molten_helmet",minecraft:equippable={asset_id:'heavenvil:molten_armor', slot:"head"}] 1
+[00:39:26] [Server thread/INFO]: [POT potatosis: Gave 1 [Netherite Helmet] to POT potatosis]
+[00:39:55] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_armor
+[00:40:05] [Server thread/INFO]: potatosis issued server command: /ie itemmodel heavenvil:molten_helmet
+[00:40:42] [Server thread/INFO]: potatosis issued server command: /ei crate molten_helmet
+[00:40:52] [Server thread/INFO]: potatosis issued server command: /ei create molten_helmet
+[00:41:29] [Server thread/INFO]: potatosis issued server command: /score interact NO VALUE / EXIT

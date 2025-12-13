@@ -1,0 +1,23 @@
+type: ARROW
+customNameVisible: false
+customName: Default name
+invisible: true
+glowing: false
+bounce: false
+despawnDelay: -1.0
+velocity: 4.0
+silent: true
+# Remove when hit block
+removeWhenHitBlock: true
+visualFire: false
+gravity: false
+color: AQUA
+pierceLevel: 3
+critical: false
+damage: 6.0
+knockbackStrength: 1
+pickupStatus: DISALLOWED
+# The hit sound
+# Requires Paperspigot or its forks to work
+hitSound: ITEM.ARMOR.EQUIP_DIAMOND
+particles: {}

@@ -1,0 +1,8 @@
+enable: true
+item:
+  material: RAW_IRON
+  displayname: "#F7E39EMinerales"
+  lore:
+  - "Aquí encontraras los minerales y relacionados disponibles"
+slot: 11
+title: "#F7E39E&oMinerales"

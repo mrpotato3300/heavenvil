@@ -1,0 +1,38 @@
+uuid: 8419cd5d-9107-364c-8346-93e192f6a022
+skills:
+  auraskills/fighting:
+    level: 1
+    xp: 45.0
+  auraskills/agility:
+    level: 3
+    xp: 139.2593200000001
+  auraskills/enchanting:
+    level: 0
+    xp: 0.0
+  auraskills/excavation:
+    level: 0
+    xp: 11.0
+  auraskills/farming:
+    level: 0
+    xp: 0.0
+  auraskills/fishing:
+    level: 0
+    xp: 70.0
+  auraskills/defense:
+    level: 2
+    xp: 244.46124990209955
+  auraskills/archery:
+    level: 0
+    xp: 0.0
+  auraskills/mining:
+    level: 10
+    xp: 31.82399999999996
+  auraskills/foraging:
+    level: 1
+    xp: 98.39999999999999
+  auraskills/alchemy:
+    level: 0
+    xp: 0.0
+mana: 24.0
+action_bar:
+  idle: true

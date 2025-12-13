@@ -1,0 +1,435 @@
+menu_title: '&5        >>&l  Teams  &r&5<<'
+open_command: 
+ - htts
+size: 54
+items:
+  'team-1':
+    material: head-%betterteams_membersposition_owners_1%
+    slot: 10
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_1% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_1%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_1%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_1%&9/&3%betterteams_membersposition_maxmembers_1%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_1%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_1%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_1%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_1%"
+  'top-2':
+    material: head-%betterteams_membersposition_owners_2%
+    slot: 11
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_2% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_2%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_2%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_2%&9/&3%betterteams_membersposition_maxmembers_2%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_2%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_2%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_2%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_2%"
+  'top-3':
+    material: head-%betterteams_membersposition_owners_3%
+    slot: 12
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_3% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_3%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_3%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_3%&9/&3%betterteams_membersposition_maxmembers_3%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_3%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_3%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_3%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_3%"
+  'top-4':
+    material: head-%betterteams_membersposition_owners_4%
+    slot: 13
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_4% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_4%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_4%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_4%&9/&3%betterteams_membersposition_maxmembers_4%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_4%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_4%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_4%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_4%"
+  'top-5':
+    material: head-%betterteams_membersposition_owners_5%
+    slot: 14
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_5% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_5%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_5%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_5%&9/&3%betterteams_membersposition_maxmembers_5%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_5%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_5%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_5%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_5%"
+  'top-6':
+    material: head-%betterteams_membersposition_owners_6%
+    slot: 19
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_6% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_6%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_6%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_6%&9/&3%betterteams_membersposition_maxmembers_6%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_6%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_6%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_6%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_6%"
+  'top-7':
+    material: head-%betterteams_membersposition_owners_7%
+    slot: 20
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_7% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_7%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_7%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_7%&9/&3%betterteams_membersposition_maxmembers_7%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_7%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_7%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_7%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_7%"
+  'top-8':
+    material: head-%betterteams_membersposition_owners_8%
+    slot: 21
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_8% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_8%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_8%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_8%&9/&3%betterteams_membersposition_maxmembers_8%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_8%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_8%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_8%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_8%"
+  'top-9':
+    material: head-%betterteams_membersposition_owners_9%
+    slot: 22
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_9% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_9%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_9%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_9%&9/&3%betterteams_membersposition_maxmembers_9%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_9%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_9%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_9%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_9%"
+  'top-10':
+    material: head-%betterteams_membersposition_owners_10%
+    slot: 23
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_10% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_10%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_10%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_10%&9/&3%betterteams_membersposition_maxmembers_10%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_10%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_10%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_10%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_10%"
+  'top-11':
+    material: head-%betterteams_membersposition_owners_11%
+    slot: 28
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_11% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_11%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_11%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_11%&9/&3%betterteams_membersposition_maxmembers_11%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_11%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_11%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_11%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_11%"
+  'top-12':
+    material: head-%betterteams_membersposition_owners_12%
+    slot: 29
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_12% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_12%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_12%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_12%&9/&3%betterteams_membersposition_maxmembers_12%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_12%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_12%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_12%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_12%"
+  'top-13':
+    material: head-%betterteams_membersposition_owners_13%
+    slot: 30
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_13% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_13%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_13%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_13%&9/&3%betterteams_membersposition_maxmembers_13%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_13%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_13%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_13%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_13%"
+  'top-14':
+    material: head-%betterteams_membersposition_owners_14%
+    slot: 31
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_14% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_14%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_14%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_14%&9/&3%betterteams_membersposition_maxmembers_14%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_14%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_14%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_14%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_14%"
+  'top-15':
+    material: head-%betterteams_membersposition_owners_15%
+    slot: 32
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_15% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_15%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_15%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_15%&9/&3%betterteams_membersposition_maxmembers_15%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_15%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_15%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_15%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_15%"
+  'top-16':
+    material: head-%betterteams_membersposition_owners_16%
+    slot: 37
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_16% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_16%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_16%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_16%&9/&3%betterteams_membersposition_maxmembers_16%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_16%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_16%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_16%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_16%"
+  'top-17':
+    material: head-%betterteams_membersposition_owners_17%
+    slot: 38
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_17% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_17%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_17%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_17%&9/&3%betterteams_membersposition_maxmembers_17%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_17%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_17%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_17%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_17%"
+  'top-18':
+    material: head-%betterteams_membersposition_owners_18%
+    slot: 39
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_18% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_18%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_18%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_18%&9/&3%betterteams_membersposition_maxmembers_18%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_18%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_18%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_18%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_18%"
+  'top-19':
+    material: head-%betterteams_membersposition_owners_19%
+    slot: 40
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_19% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_19%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_19%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_19%&9/&3%betterteams_membersposition_maxmembers_19%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_19%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_19%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_19%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_19%"
+  'top-20':
+    material: head-%betterteams_membersposition_owners_20%
+    slot: 41
+    display_name: "&5&l--[&r %betterteams_color%%betterteams_membersposition_name_20% &r&5&l]--"
+    lore:
+     - '&e&lApodo: %betterteams_color%%betterteams_membersposition_tag_20%'
+     - '&e&lDescripción:'
+     - '&6- &7%betterteams_membersposition_description_20%'
+     - '&b&lMiembros: &3%betterteams_membersposition_members_20%&9/&3%betterteams_membersposition_maxmembers_20%'
+     - '&2&lPvP: &a%betterteams_membersposition_pvp_20%'
+     - '&2&lTeam Abierto: &a%betterteams_membersposition_open_20%'
+     - '&7> Click Izquierdo para unirte <'
+     - '&7> Click Derecho para enviar alianza <'
+    left_click_commands:
+     - "[player] htj %betterteams_membersposition_name_20%"
+    right_click_commands:
+     - "[player] htally %betterteams_membersposition_name_20%"
+# a
+# MENU
+# a
+  'current-menu':
+    material: GREEN_STAINED_GLASS_PANE
+    display_name: "&2Se encuentra aquí ->"
+    slot: 25
+  'other-menu':
+    material: RED_STAINED_GLASS_PANE
+    slots:
+     - 16
+     - 34
+    hide_tooltip: true
+  'top-level':
+    material: DIAMOND
+    slot: 35
+    display_name: "&6& Top Nivel &"
+    lore:
+     - '&7Todos los Teams de Heavenvil'
+     - '&7Registra un team si quieres aparecer aquí'
+    click_commands:
+     - "[player] htls"
+  'team-list':
+    material: SPYGLASS
+    slot: 26
+    display_name: "&d# Ver Teams #"
+    lore:
+     - '&7Todos los Teams de Heavenvil'
+     - '&7Registra un team si quieres aparecer aquí'
+    click_commands:
+     - "[player] htts"
+  'top-eco':
+    material: EMERALD
+    slot: 17
+    display_name: "&a$ Top Dinero $"
+    lore:
+     - '&7Top de Dinero de Heavenvil'
+     - '&7Para entrar al top, tu Team debe tener un gran capital'
+    click_commands:
+     - "[player] htes"
+  'create-team':
+    material: NETHER_STAR
+    slot: 52
+    display_name: "&eCrear Team"
+    lore:
+     - '&7Crea un Team oficial de Heavenvil'
+     - '&7¡Administra un Team y compite en el Top!'
+    click_commands:
+     - "[player] htcs"
+     - "[close]"
+  'back-exit':
+    material: BARRIER
+    slot: 53
+    display_name: "&cVolver"
+    click_commands:
+     - "[player] ht"
+  'lightgrayglass':
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    hide_tooltip: true
+    slots:
+     - 51
+     - 50
+     - 49
+     - 48
+     - 47
+     - 46
+     - 45
+  'purpleglass':
+    material: PURPLE_STAINED_GLASS_PANE
+    hide_tooltip: true
+    slots: 
+     - 0
+     - 1
+     - 2
+     - 3
+     - 4
+     - 5
+     - 6
+     - 7
+     - 8
+     - 9
+     - 15
+     - 18
+     - 24
+     - 27
+     - 33
+     - 36
+     - 42
+     - 43
+     - 44

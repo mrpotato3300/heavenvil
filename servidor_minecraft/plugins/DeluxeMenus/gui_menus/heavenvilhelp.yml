@@ -1,0 +1,86 @@
+menu_title: '&7Centro de Ayuda [1]'
+open_command:
+  - heavenhelp
+  - hh
+size: 27
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: heavenvilmenu
+      deny_commands:
+        - "&f> &c¡No tienes permiso para abrir el menú!"
+items:
+  'recipes':
+    material: WRITABLE_BOOK
+    slot: 0
+    display_name: "&f/recipes"
+    lore:
+     - "&7Abre la lista de recetas de Heavenvil"
+    click_commands:
+     - "[player] recipes"
+  'skills':
+    material: WRITABLE_BOOK
+    slot: 1
+    display_name: "&f/skills"
+    lore:
+     - "&7Abre la lista de habilidades"
+    click_commands:
+     - "[player] skills"
+  'gorbanda':
+    material: WRITABLE_BOOK
+    slot: 2
+    display_name: "&f/gorbanda"
+    lore:
+     - "&7Link para entrar al discord oficial de Heavenvil"
+    click_commands:
+     - "[player] gorbanda"
+  'starterkit':
+    material: WRITABLE_BOOK
+    slot: 3
+    display_name: "&f/kit starter"
+    lore:
+     - "&7Kit de inicio en Heavenvil, 1 solo uso"
+    click_commands:
+     - "[player] kit starter"
+  'warp':
+    material: WRITABLE_BOOK
+    slot: 4
+    display_name: "&f/warp <sitio>"
+    lore:
+     - "&7Teletransportes hacia distintos sitios"
+     - "&7Inclye una lista con los warps disponibles"
+    click_commands:
+     - "[player] warplist"
+# Parte inferior
+  'next':
+    material: ARROW
+    slot: 26
+    display_name: "&fSiguiente"
+    click_commands:
+     - "[player] hh2"
+  'back':
+    material: BARRIER
+    slot: 18
+    display_name: "&cVolver"
+    click_commands:
+     - "[player] hm"
+  'description':
+    material: COMPASS
+    slot: 22
+    display_name: "&fCentro de Ayuda"
+    lore:
+     - "&7Contiene todos los comandos más importantes."
+     - "&7Click en cualquier comando para ejecutarlo."
+     - "&7También puedes ejectarlos desde el chat."
+  'grayglass':
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    hide_tooltip: true
+    slots: 
+     - 19
+     - 20
+     - 21
+     - 23
+     - 24
+     - 25
+    display_name: " "

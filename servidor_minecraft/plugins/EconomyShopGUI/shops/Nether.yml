@@ -1,0 +1,103 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: NETHERRACK
+        displayname: Netherrack
+        buy: 100.0
+        sell: 100.0
+      '4':
+        material: CRIMSON_FUNGUS
+        displayname: Hongo del nether carmesí
+        buy: 100.0
+        sell: 100.0
+      '5':
+        material: CRIMSON_ROOTS
+        displayname: Pasto carmesí
+        buy: 100.0
+        sell: 100.0
+      '6':
+        material: NETHER_SPROUTS
+        displayname: Pasto del nether celeste
+        buy: 100.0
+        sell: 100.0
+      '7':
+        material: SOUL_SAND
+        displayname: Arena de almas
+        buy: 100.0
+        sell: 100.0
+      '8':
+        material: MAGMA_BLOCK
+        displayname: Bloque de magma
+        buy: 100.0
+        sell: 100.0
+      '9':
+        material: MAGMA_CREAM
+        displayname: Crema de magma
+        buy: 100.0
+        sell: 100.0
+      '10':
+        material: FIRE_CHARGE
+        displayname: Carga de fuego
+        buy: 100.0
+        sell: 100.0
+      '11':
+        material: GLOWSTONE
+        displayname: Glowstone
+        buy: 100.0
+        sell: 100.0
+      '12':
+        material: BASALT
+        displayname: Basalto
+        buy: 100.0
+        sell: 100.0
+      '13':
+        material: POLISHED_BASALT
+        displayname: Basalto pulido
+        buy: 100.0
+        sell: 100.0
+      '14':
+        material: BLACKSTONE
+        displayname: Piedra negra
+        buy: 100.0
+        sell: 100.0
+      '15':
+        material: GILDED_BLACKSTONE
+        displayname: Piedranegra dorada
+        buy: 100.0
+        sell: 100.0
+      '16':
+        material: NETHER_BRICK
+        displayname: Ladrillo del nether
+        buy: 100.0
+        sell: 100.0
+      '17':
+        material: RED_NETHER_BRICKS
+        displayname: Ladrillo del nether rojo
+        buy: 100.0
+        sell: 100.0
+      '18':
+        material: CRIMSON_STEM
+        displayname: Tallo carmesí
+        buy: 100.0
+        sell: 100.0
+      '19':
+        material: OBSIDIAN
+        displayname: Obsidiana
+        buy: 100.0
+        sell: 100.0
+      '20':
+        material: CRYING_OBSIDIAN
+        displayname: Obsidiana llorosa
+        buy: 100.0
+        sell: 100.0
+      '21':
+        material: QUARTZ
+        displayname: Cuarzo
+        buy: 100.0
+        sell: 100.0
+      '22':
+        material: GHAST_TEAR
+        displayname: Lagrima de Ghast
+        buy: 100.0
+        sell: 100.0

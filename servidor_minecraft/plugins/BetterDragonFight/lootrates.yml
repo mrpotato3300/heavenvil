@@ -1,0 +1,189 @@
+loot_item_1:
+  chance: 3
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_2:
+  chance: 3
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_3:
+  chance: 3
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_4:
+  chance: 3
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_5:
+  chance: 20
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_6:
+  chance: 10
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_7:
+  chance: 24
+  maxamount: 8
+  minamount: 1
+  enraged_addition: 6
+  multiple_rolls: true
+  enraged_only: false
+loot_item_8:
+  chance: 24
+  maxamount: 12
+  minamount: 1
+  enraged_addition: 6
+  multiple_rolls: true
+  enraged_only: false
+loot_item_9:
+  chance: 28
+  maxamount: 2
+  minamount: 1
+  enraged_addition: 4
+  multiple_rolls: true
+  enraged_only: false
+loot_item_10:
+  chance: 16
+  maxamount: 8
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: true
+  enraged_only: false
+loot_item_11:
+  chance: 16
+  maxamount: 8
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: true
+  enraged_only: false
+loot_item_12:
+  chance: 16
+  maxamount: 4
+  minamount: 1
+  enraged_addition: 4
+  multiple_rolls: true
+  enraged_only: false
+loot_item_13:
+  chance: 16
+  maxamount: 2
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: true
+  enraged_only: false
+loot_item_14:
+  chance: 16
+  maxamount: 8
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: true
+  enraged_only: false
+loot_item_15:
+  chance: 16
+  maxamount: 8
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: true
+  enraged_only: false
+loot_item_16:
+  chance: 16
+  maxamount: 8
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: true
+  enraged_only: false
+loot_item_17:
+  chance: 16
+  maxamount: 8
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: true
+  enraged_only: false
+loot_item_18:
+  chance: 16
+  maxamount: 8
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: true
+  enraged_only: false
+loot_item_19:
+  chance: 2
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_20:
+  chance: 100
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_21:
+  chance: 100
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_22:
+  chance: 100
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_23:
+  chance: 100
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_24:
+  chance: 100
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_25:
+  chance: 100
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_26:
+  chance: 100
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false
+loot_item_27:
+  chance: 100
+  maxamount: 1
+  minamount: 1
+  enraged_addition: 0
+  multiple_rolls: false
+  enraged_only: false

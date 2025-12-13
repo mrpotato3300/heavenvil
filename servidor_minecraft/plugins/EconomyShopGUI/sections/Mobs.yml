@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: SPIDER_EYE
+  displayname: Mobs
+slot: 13

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.188.223.243
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765314807152
+  login: 1765307143593
+money: '0'
+last-account-name: NotSumo1
+logoutlocation:
+  world: 07743985-5344-4cab-85b1-33e738fbecf9
+  world-name: heaven
+  x: -0.7057016743282866
+  y: 250.7374672599799
+  z: -1226.6794115912523
+  yaw: 96.45205688476562
+  pitch: 90.0
+lastlocation:
+  world: 2a9d3cbb-07c1-4a4e-85f2-2eff0ec21258
+  world-name: admin1
+  x: 2.2928238229687747
+  y: 65.0
+  z: 0.0871829676151531
+  yaw: 59.399993896484375
+  pitch: 12.449997901916504

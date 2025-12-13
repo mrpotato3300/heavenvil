@@ -1,0 +1,318 @@
+# The name or display name
+name: §x§7§D§6§2§9§3§l§o\-[ ENMA ]-/
+# The lore of the item
+lore:
+- §6[ITEM LEGENDARIO]
+- §7Forjada en el punto más profundo del Infierno.
+- §9Estadísticas
+- '§2Daño: §f10'
+- '§2Velocidad: §fNormal'
+- §2§lIrrompible
+- '§bHabilidades:'
+- §7[ Utiliza el Sello para ]
+- §7[ acceder a sus habilidades ]
+# The material
+material: NETHERITE_SWORD
+# Item Glowing effect
+glow: false
+# Disable the enchant glide effect
+disableEnchantGlide: false
+# Disable item stacking ?
+disableStack: false
+# Keep the item on death ?
+keepItemOnDeath: false
+# Can be used only by the owner
+# ⚠ Require Store item info on true
+canBeUsedOnlyByTheOwner: false
+# Cancel event if not owner
+cancelEventIfNotOwner: false
+# BlackListed Activators
+# (can be used by everyone even if
+# the only owner feature is set to true)
+onlyOwnerBlackListedActivators: []
+# Store item info ?
+# Store the item info like the owner
+storeItemInfo: false
+# Item unbreakable ?
+unbreakable: true
+# The durability feature
+# will be ignored, and the usage
+# feature will be used as durability
+isDurabilityBasedOnUsage: false
+# Cancel the event if the player has no permission
+cancelEventIfNoPermission: false
+# The whitelisted worlds features
+whitelistedWorlds: []
+# The glider
+glider: false
+# Keep the default attributes
+# Only for 1.19+
+keepDefaultAttributes: true
+# For new item LET IT FALSE PLS
+# Otherwise you can let it true
+# if you want to update your old items turn it FALSE
+# But be careful the item tags may change
+# it can impact shopkeeper or custom craft recipe
+# Only for 1.19+
+ignoreKeepDefaultAttributesFeature: false
+config_5: true
+config_update: true
+itemModel: heavenvil:emma
+# Max durability feature
+maxDurability: 5100
+# The durability of the item
+durability: 5100
+# The usage features
+# Increase or Decrease this usage with
+# UsageModification in your activators
+usageFeatures:
+  # The usage of the item
+  # -1 = Infinite
+  # Increase or Decrease this usage with
+  # UsageModification in your activators
+  usage: -1
+  # Is refreshable clean
+  isRefreshableClean: true
+  # The usage limit of the item
+  # Usage can't be increased above this value
+  usageLimit: -1
+# The drop features
+dropFeatures:
+  # Glow drop
+  glowDrop: false
+  # The color of the glow
+  glowDropColor: WHITE
+  # Display custom name above the item
+  displayNameDrop: false
+# The enchantments of the item
+enchantments: {}
+# The hiders features
+# Hiders to hide:
+# Attributes, Enchants, ...
+hiders:
+  # Hide enchantments
+  hideEnchantments: false
+  # Hide unbreakable
+  hideUnbreakable: true
+  # Hide attributes
+  hideAttributes: true
+  # Hide usage
+  hideUsage: false
+  # Hide destroys
+  hideDestroys: false
+  # Hide placed on
+  hidePlacedOn: false
+  # Hide dye
+  hideDye: false
+  # Hide armor trim
+  hideArmorTrim: false
+  # Hide additional tooltip
+  hideAdditionalTooltip: false
+  # Hide tool tip
+  hideToolTip: false
+# The give first join features
+giveFirstJoinFeatures:
+  # Enable the feature
+  giveFirstJoin: false
+  # The amount to give
+  giveFirstJoinAmount: 1
+  # Slot between 0 and 8 includes
+  giveFirstJoinSlot: 0
+# The restrictions features
+restrictions:
+  # The item can't be
+  # moved of the inventory
+  locked-in-inventory: false
+# The variables
+# Variables are used to store data like kills / deaths ...
+variables: {}
+# The activators / triggers
+activators:
+  activator0:
+    # The name or display name
+    name: emma_activate
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 1
+      # The cooldown message
+      cooldownMsg: '&cCooldown ! &7[&e%time_S%&6s&7]'
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems:
+      requiredEI0:
+        executableItem: dragon_seal
+        # The amount
+        amount: 1
+      requiredEI1:
+        executableItem: emma
+        # The amount
+        amount: 1
+      # The error message
+      errorMessage: '&c> No tienes el &6Sello Dragón &cpara activar la &d&lemma'
+    # Required mana
+    # Require: AureliumSkills/MMOCore
+    requiredMana:
+      # Required mana
+      # Require: AureliumSkills/MMOCore
+      requiredMana: 50
+      # The error message
+      errorMessage: '&c> ¡No tienes suficiente Maná!'
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots:
+    - -1
+    commands:
+    - execute at %player% run particle minecraft:cloud ~ ~ ~ 0.5 1 0.5 0.1 150
+    - execute at %player% run particle minecraft:trial_spawner_detection ~ ~ ~ 0.1
+      1 0.1 0.1 150
+    - execute at %player% run particle minecraft:end_rod ~ ~ ~ 0.1 1 0.1 0.1 20
+    - effect give %player% minecraft:slowness 1 9 true
+    - effect give %player% minecraft:blindness 1 9 true
+    - effect give %player% minecraft:resistance 3 9 true
+    - execute at %player% run playsound heavenvil:armament_haki master %player% ~
+      ~ ~ 1 1
+    - execute at %player% run playsound heavenvil:conqueror_haki master %player% ~
+      ~ ~ 1 1
+    - DELAY_TICK 18
+    - execute in minecraft:admin1 run minecraft:item replace entity %player% weapon.mainhand
+      from block 0 -55 0 container.3
+    - scoreboard players set %player% emma 3600
+    - execute at %player% run particle minecraft:enchant ~ ~ ~ 0.5 1 0.5 0.1 230 force
+    - execute at %player% run particle minecraft:trial_spawner_detection_ominous ~
+      ~ ~ 0.1 1 0.1 0.1 200
+    - execute at %player% run particle minecraft:witch ~ ~ ~ 0.1 1 0.1 0.1 200
+    - execute at %player% run particle minecraft:landing_obsidian_tear ~ ~ ~ 0.5 1
+      0.5 0.1 100
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+# Display conditions in the lore
+displayConditions:
+  # Add player conditions to determine
+  # when the 
+  playerConditions: {}
+  #
+  worldConditions: {}
+  #
+  itemConditions: {}
+  # The placeholders conditions
+  placeholdersConditions: {}
+  # Enable or disable this feature
+  enableFeature: false
+# Food features
+foodFeatures:
+  # Is the food meat?
+  isMeat: false
+  # The nutrition of the food
+  nutrition: 1
+  # The saturation of the food
+  saturation: 1
+  # Can the player always eat this food?
+  canAlwaysEat: false
+# Consumable Features
+consumableFeatures:
+  # Enable this features
+  enable: false
+  # The animation
+  animation: EAT
+  # Has consume particles
+  hasConsumeParticles: false
+  # The consume seconds
+  consumeSeconds: 3
+# The weapon features
+weaponFeatures:
+  # Enable this features
+  enable: true
+  # The time to disable blocking
+  # in ticks
+  disableBlockingTime: 0
+  # The damage per attack
+  damagePerAttack: 1
+# The block attacks features
+blockAttacksFeatures:
+  # Enable this features
+  enable: false
+  # The block delay in seconds
+  blockDelay: 0
+  disableCooldownScale: 1.0
+  # The damage reductions
+  damageReductions: {}
+# The rarity of the item
+itemRarity:
+  # Enable or disable the rarity feature
+  enableRarity: false
+  # The rarity of the item
+  rarity: COMMON
+# The repairable features
+repairableFeatures:
+  # Enable this features
+  enable: false
+  # The repair cost
+  repairCost: 2
+# The equippable features
+equippableFeatures:
+  # Enable this features
+  enable: false
+  # The slot
+  slot: BODY
+  # Enable the sound
+  enableSound: false
+  # The sound
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  # The item will take damage when the player is hurt
+  damageableOnHurt: false
+  # The item can be dispensed
+  dispensable: true
+  # The item can be swapped
+  swappable: true
+  # The allowed entities
+  allowedEntities:
+  - PLAYER
+# The attributes
+attributes:
+  attribute0:
+    attribute: ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.0
+    # The slot
+    slot: HAND
+    # The name or display name
+    name: '&eDefault name'
+    uuid: 4e829979-5c3d-41ee-b3cd-7be7e21aab1e

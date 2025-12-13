@@ -1,0 +1,16 @@
+name: MEDELLIN
+description: 'Cojemos a los malos en medellin '
+open: false
+pvp: false
+anchor: false
+home: ''
+color: a
+chests: []
+anchoredPlayers:
+- 29641b66-1ac7-3d24-ba1f-d7b02275072a
+players:
+- 29641b66-1ac7-3d24-ba1f-d7b02275072a,OWNER
+level: 1
+tag: MED
+money: 1601.0
+score: 0

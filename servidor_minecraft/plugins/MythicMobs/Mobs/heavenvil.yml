@@ -1,0 +1,244 @@
+rider_zombie_horse:
+  Type: ZOMBIE_HORSE
+  Health: 40
+  Damage: 3
+  Drops:
+  - GOLD_NUGGET 1to2 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 32
+    KnockbackResistance: 0.5
+    MovementSpeed: 0.35
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  - movetowardstarget
+  AITargetSelectors:
+  - clear
+  - players
+  - villager
+  - iron_golem
+
+rider_zombie:
+  Type: DROWNED
+  Mount: rider_zombie_horse
+  Display: '&fTriton'
+  Health: 20
+  Damage: 5
+  Equipment:
+  - trident HAND
+  - player_head {SkullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJlOTRmZDMxYjgyMjIyNDMyZjI3YjYwZDc2NWE1ZDYyMmZkNzZjNGUzYTg4MDdmOWExZDQxZmI3MDdhZmFlMCJ9fX0=} HEAD
+  - iron_chestplate CHEST
+  - chainmail_leggings LEGS
+  - chainmail_boots FEET
+  Drops:
+  - GOLD_NUGGET 1to2 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 36
+    KnockbackResistance: 1
+
+rider_skeleton_horse:
+  Type: SKELETON_HORSE
+  Health: 60
+  Damage: 3
+  Drops:
+  - GOLD_NUGGET 1to2 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 64
+    KnockbackResistance: 1
+    MovementSpeed: 0.35
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  - movetowardstarget
+  AITargetSelectors:
+  - clear
+  - players
+  - villager
+  - iron_golem
+  Skills:
+  - ignite{ticks=100} @trigger ~onAttack
+  - flames @Self
+  - particles{particle=flame;amount=10;xs=0.2;zs=0.2;vs=0.2;y=1;speed=0.01} @Self ~onTimer:5
+
+rider_inferno_skeleton:
+  Type: WITHER_SKELETON
+  Mount: rider_skeleton_horse
+  Display: '&6&c&lGhost Rider'
+  Health: 20
+  Damage: 10
+  Equipment:
+  - bow HAND
+  - player_head {SkullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFmNGY0ZGMzYjA5ODQ4MWQ4MTc1ZDg0ODkyYzE0NjM3ODU5YWNlNmI1MjQxN2Q0ZWRmZWRmNThlNmRiNTRmOSJ9fX0=} HEAD
+  - netherite_chestplate{lore="id:molten"} CHEST
+  - netherite_leggings{lore="id:molten"} LEGS
+  - netherite_boots{lore="id:molten"} FEET
+  Drops:
+  - GOLD_NUGGET 1to2 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 50
+    KnockbackResistance: 1
+  Skills:
+  - flames @Self
+  - particles{particle=lava;amount=10;xs=0.1;zs=0.1;vs=0.1;y=0.5;speed=0.01} @Self ~onTimer:20
+
+ghost_creeper:
+  Type: CREEPER
+  Health: 15
+  Options:
+    FollowRange: 16
+    MovementSpeed: 0.35
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+    - potion{type=GLOWING;duration=400;level=0} @Self ~onEnterCombat
+    - potion{type=invisibility;duration=400;level=0} @Self ~onEnterCombat
+
+rider_wolf:
+  Type: WOLF
+  Health: 15
+  Damage: 4
+  Drops:
+  - BONE 0to3 1
+  Options:
+    AlwaysShowName: false
+    FollowRange: 22
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  - players
+  - villager
+  - iron_golem
+
+rider_wolf_jockey:
+  Type: BABY_ZOMBIE
+  Mount: rider_wolf
+  Health: 20
+  Damage: 10
+  Drops:
+  - GOLD_NUGGET 1to2 1
+  Options:
+    FollowRange: 40
+
+summoner_creeper:
+  Type: CREEPER
+  Display: '&8&l&oNigromante'
+  Health: 35
+  Equipment:
+  - netherite_chestplate CHEST
+  Drops:
+  - GOLD_NUGGET 1to2 1
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+    - skill{s=summon_creepers} @self 0.6
+    - particles{particle=witch;amount=15;xs=0.1;zs=0.1;vs=0.5;y=0.5;speed=0.01} @Self ~onTimer:20
+
+minion_creeper:
+  Type: CREEPER
+  Health: 15
+  Options:
+    FollowRange: 16
+    MovementSpeed: 0.22
+
+jack_o_zombie:
+  Type: ZOMBIE
+  Display: '&6&lCalabazín'
+  Options:
+    MovementSpeed: 0.19
+  Equipment:
+  - player_head {SkullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWUyOGEwM2VkMmViOTBlYWZmMWExMTlhNWI1NTQ0NTI3MDFiOTdhZjQ3YmZmNzNjZTcxMDg0OWM2YjAifX19} HEAD
+  - wooden_axe HAND
+  - wooden_axe OFFHAND
+  Skills:
+    - skill{s=jackon} @self ~OnDeath
+
+enraged_jack_o_zombie:
+  Type: ZOMBIE
+  Display: '&6&l&oCALABAZÓN'
+  Health: 25
+  Options:
+    MovementSpeed: 0.33
+    Damage: 10
+  Equipment:
+  - player_head {SkullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NlZDRiY2ZkMjExNjQ2NGRlZGYxNTdiZmM2MmRiMjZjOTU3YTlhNmFjOGJiYzUyNTYzNDY3MDg1YmUyMyJ9fX0=} HEAD
+  - diamond_axe HAND
+  - diamond_axe OFFHAND
+  - leather_chestplate CHEST
+  Drops:
+  - GOLD_NUGGET 1to2 1
+
+obsidian_zombie:
+  Type: ZOMBIE
+  Display: '&5&l&oZashtixa'
+  Health: 60
+  Damage: 20
+  Equipment:
+  - netherite_sword HAND
+  - netherite_helmet{lore="id:obsidian"} HEAD
+  - netherite_chestplate{lore="id:obsidian"} CHEST
+  - netherite_leggings{lore="id:obsidian"} LEGS
+  - netherite_boots{lore="id:obsidian"} FEET
+  Drops:
+  - GOLD_INGOT 0to5 1
+  - NETHERITE_INGOT 0to2 1
+  - DIAMOND 0to3 1
+  - OBSIDIAN 12to36 1
+  - CRYING_OBSIDIAN 10to22 1
+  - AMETHYST_SHARD 8to16 1
+  Options:
+    FollowRange: 50
+    KnockbackResistance: 1
+  Skills:
+  - particles{particle=witch;amount=5;xs=0.1;zs=0.1;vs=0.5;y=0.5;speed=0.01} @Self ~onTimer:5
+  - particles{particle=reverse_portal;amount=5;xs=0.3;zs=0.3;vs=0.6;y=0.5;speed=0.01} @Self ~onTimer:5
+
+knight_skeleton:
+  Type: SKELETON
+  Health: 20
+  Damage: 8
+  Equipment:
+  - bow HAND
+  - shield OFFHAND
+  - netherite_helmet HEAD
+  Options:
+    MovementSpeed: 0.33
+    FollowRange: 22
+  Drops:
+  - GOLD_NUGGET 1to2 1
+
+golden_piggy:
+  Type: PIG
+  Display: '&e&lCERDO DORADO'
+  Health: 30
+  Options:
+    MovementSpeed: 0.35
+  Skills:
+  - particles{particle=totem_of_undying;amount=10;xs=0.4;zs=0.4;vs=0.3;y=0.4;speed=0.01} @Self ~onTimer:5
+  Drops:
+  - GOLD_INGOT 4to12 1
+  - GOLD_NUGGET 16to32 1
+  - GOLD_BLOCK 0to2 1
+  - money 100to1000 1
+
+eye:
+  Type: ZOMBIE
+  Health: 1
+  Options:
+    MovementSpeed: 0.1
+  Equipment:
+  - creeper_head HEAD
+  Drops:
+  - player_head 4to12 1

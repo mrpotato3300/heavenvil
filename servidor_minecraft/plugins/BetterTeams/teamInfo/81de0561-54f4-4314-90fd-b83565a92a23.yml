@@ -1,0 +1,16 @@
+name: potatoes
+description: 'viva la muerte '
+open: false
+pvp: false
+anchor: false
+home: ''
+color: '6'
+chests: []
+anchoredPlayers:
+- 83aa1b0f-b98a-3a1d-8efb-3968ee621d57
+players:
+- 83aa1b0f-b98a-3a1d-8efb-3968ee621d57,OWNER
+level: 1
+tag: POT
+score: 2
+money: 4000.0

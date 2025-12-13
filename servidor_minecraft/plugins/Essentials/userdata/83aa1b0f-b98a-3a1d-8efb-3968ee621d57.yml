@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.79.98.86
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1765578856617
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765501152325
+  login: 1765570065944
+money: '48402.0'
+last-account-name: potatosis
+logoutlocation:
+  world: 2a9d3cbb-07c1-4a4e-85f2-2eff0ec21258
+  world-name: admin1
+  x: -3.301086815850808
+  y: 65.0
+  z: 1.4732098380175656
+  yaw: -109.8642578125
+  pitch: 22.68140411376953
+lastlocation:
+  world: 2a9d3cbb-07c1-4a4e-85f2-2eff0ec21258
+  world-name: admin1
+  x: 0.7569793630105182
+  y: -54.57009483485915
+  z: 2.4820704917112364
+  yaw: 136.647216796875
+  pitch: 51.149959564208984

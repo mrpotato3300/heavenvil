@@ -1,0 +1,255 @@
+menu_title: '&5        >>&l  Top Nivel  &r&5<<'
+open_command: 
+ - htls
+size: 54
+items:
+  'top-1':
+    material: NETHERITE_BLOCK
+    slot: 10
+    display_name: "&#350070&l[ TOP 1 ]"
+    lore:
+     - '&#402e85&lEquipo: %betterteams_color%%betterteams_scoreposition_name_1%'
+     - '&#402e85&lApodo: %betterteams_color%%betterteams_scoreposition_tag_1%'
+     - '&#402e85&lCapital Total: &2$%betterteams_scoreposition_money_1%'
+  'top-2':
+    material: DIAMOND_BLOCK
+    slot: 11
+    display_name: "&#0051a1&l[ TOP 2 ]"
+    lore:
+     - '&#458dd5&lEquipo: %betterteams_color%%betterteams_scoreposition_name_2%'
+     - '&#458dd5&lApodo: %betterteams_color%%betterteams_scoreposition_tag_2%'
+     - '&#458dd5&lCapital Total: &2$%betterteams_scoreposition_money_2%'
+  'top-3':
+    material: EMERALD_BLOCK
+    slot: 12
+    display_name: "&#029100&l[ TOP 3 ]"
+    lore:
+     - '&#3aca38&lEquipo: %betterteams_color%%betterteams_scoreposition_name_3%'
+     - '&#3aca38&lApodo: %betterteams_color%%betterteams_scoreposition_tag_3%'
+     - '&#3aca38&lCapital Total: &2$%betterteams_scoreposition_money_3%'
+  'top-4':
+    material: GOLD_BLOCK
+    slot: 13
+    display_name: "&#a99a00&l[ TOP 4 ]"
+    lore:
+     - '&#e1d350&lEquipo: %betterteams_color%%betterteams_scoreposition_name_4%'
+     - '&#e1d350&lApodo: %betterteams_color%%betterteams_scoreposition_tag_4%'
+     - '&#e1d350&lCapital Total: &2$%betterteams_scoreposition_money_4%'
+  'top-5':
+    material: IRON_BLOCK
+    slot: 14
+    display_name: "&#949494&l[ TOP 5 ]"
+    lore:
+     - '&#d2d2d2&lEquipo: %betterteams_color%%betterteams_scoreposition_name_5%'
+     - '&#d2d2d2&lApodo: %betterteams_color%%betterteams_scoreposition_tag_5%'
+     - '&#d2d2d2&lCapital Total: &2$%betterteams_scoreposition_money_5%'
+  'top-6':
+    material: COPPER_BLOCK
+    slot: 19
+    display_name: "&#7f4600&l[ TOP 6 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_6%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_6%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_6%'
+  'top-7':
+    material: COPPER_BLOCK
+    slot: 20
+    display_name: "&#7f4600&l[ TOP 7 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_7%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_7%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_7%'
+  'top-8':
+    material: COPPER_BLOCK
+    slot: 21
+    display_name: "&#7f4600&l[ TOP 8 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_8%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_8%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_8%'
+  'top-9':
+    material: COPPER_BLOCK
+    slot: 22
+    display_name: "&#7f4600&l[ TOP 9 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_9%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_9%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_9%'
+  'top-10':
+    material: COPPER_BLOCK
+    slot: 23
+    display_name: "&#7f4600&l[ TOP 10 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_10%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_10%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_10%'
+  'top-11':
+    material: COPPER_BLOCK
+    slot: 28
+    display_name: "&#7f4600&l[ TOP 11 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_11%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_11%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_11%'
+  'top-12':
+    material: COPPER_BLOCK
+    slot: 29
+    display_name: "&#7f4600&l[ TOP 12 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_12%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_12%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_12%'
+  'top-13':
+    material: COPPER_BLOCK
+    slot: 30
+    display_name: "&#7f4600&l[ TOP 13 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_13%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_13%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_13%'
+  'top-14':
+    material: COPPER_BLOCK
+    slot: 31
+    display_name: "&#7f4600&l[ TOP 14 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_14%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_14%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_14%'
+  'top-15':
+    material: COPPER_BLOCK
+    slot: 32
+    display_name: "&#7f4600&l[ TOP 15 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_15%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_15%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_15%'
+  'top-16':
+    material: COPPER_BLOCK
+    slot: 37
+    display_name: "&#7f4600&l[ TOP 16 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_16%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_16%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_16%'
+  'top-17':
+    material: COPPER_BLOCK
+    slot: 38
+    display_name: "&#7f4600&l[ TOP 17 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_17%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_17%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_17%'
+  'top-18':
+    material: COPPER_BLOCK
+    slot: 39
+    display_name: "&#7f4600&l[ TOP 18 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_18%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_18%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_18%'
+  'top-19':
+    material: COPPER_BLOCK
+    slot: 40
+    display_name: "&#7f4600&l[ TOP 19 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_19%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_19%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_19%'
+  'top-20':
+    material: COPPER_BLOCK
+    slot: 41
+    display_name: "&#7f4600&l[ TOP 20 ]"
+    lore:
+     - '&#c3700b&lEquipo: %betterteams_color%%betterteams_scoreposition_name_20%'
+     - '&#c3700b&lApodo: %betterteams_color%%betterteams_scoreposition_tag_20%'
+     - '&#c3700b&lCapital Total: &2$%betterteams_scoreposition_money_20%'
+# a
+# MENU
+# a
+  'current-menu':
+    material: GREEN_STAINED_GLASS_PANE
+    display_name: "&2Se encuentra aquí ->"
+    slot: 34
+  'other-menu':
+    material: RED_STAINED_GLASS_PANE
+    slots:
+     - 25
+     - 16
+    hide_tooltip: true
+  'top-level':
+    material: DIAMOND
+    slot: 35
+    display_name: "&6& Top Nivel &"
+    lore:
+     - '&7Todos los Teams de Heavenvil'
+     - '&7Registra un team si quieres aparecer aquí'
+    click_commands:
+     - "[player] htls"
+  'team-list':
+    material: SPYGLASS
+    slot: 26
+    display_name: "&d# Ver Teams #"
+    lore:
+     - '&7Todos los Teams de Heavenvil'
+     - '&7Registra un team si quieres aparecer aquí'
+    click_commands:
+     - "[player] htts"
+  'top-eco':
+    material: EMERALD
+    slot: 17
+    display_name: "&a$ Top Dinero $"
+    lore:
+     - '&7Top de Dinero de Heavenvil'
+     - '&7Para entrar al top, tu Team debe tener un gran capital'
+    click_commands:
+     - "[player] htes"
+  'create-team':
+    material: NETHER_STAR
+    slot: 52
+    display_name: "&eCrear Team"
+    lore:
+     - '&7Crea un Team oficial de Heavenvil'
+     - '&7¡Administra un Team y compite en el Top!'
+    click_commands:
+     - "[player] htcs"
+     - "[close]"
+  'back-exit':
+    material: BARRIER
+    slot: 53
+    display_name: "&cVolver"
+    click_commands:
+     - "[player] ht"
+  'lightgrayglass':
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    hide_tooltip: true
+    slots:
+     - 51
+     - 50
+     - 49
+     - 48
+     - 47
+     - 46
+     - 45
+  'purpleglass':
+    material: PURPLE_STAINED_GLASS_PANE
+    hide_tooltip: true
+    slots: 
+     - 0
+     - 1
+     - 2
+     - 3
+     - 4
+     - 5
+     - 6
+     - 7
+     - 8
+     - 9
+     - 15
+     - 18
+     - 24
+     - 27
+     - 33
+     - 36
+     - 42
+     - 43
+     - 44
